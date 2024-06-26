@@ -1,0 +1,5199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.SecondHomework.ContoBancarioTest" time="3.218" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\39339\eclipse\contobancario\target\test-classes;C:\Users\39339\eclipse\contobancario\target\classes;C:\Users\39339\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\39339\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\39339\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\39339\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\39339\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\39339\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik\1.8.2\jqwik-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-api\1.8.2\jqwik-api-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-web\1.8.2\jqwik-web-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-time\1.8.2\jqwik-time-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-engine\1.8.2\jqwik-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\39339\AppData\Local\Temp\surefire10310643148988115261\surefirebooter-20240617175200623_3.jar C:\Users\39339\AppData\Local\Temp\surefire10310643148988115261 2024-06-17T17-52-00_408-jvmRun1 surefire-20240617175200623_1tmp surefire_0-20240617175200623_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\39339\eclipse\contobancario\target\test-classes;C:\Users\39339\eclipse\contobancario\target\classes;C:\Users\39339\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\39339\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\39339\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\39339\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\39339\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\39339\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik\1.8.2\jqwik-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-api\1.8.2\jqwik-api-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-web\1.8.2\jqwik-web-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-time\1.8.2\jqwik-time-1.8.2.jar;C:\Users\39339\.m2\repository\net\jqwik\jqwik-engine\1.8.2\jqwik-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\39339"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\39339\eclipse\contobancario"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\39339\AppData\Local\Temp\surefire10310643148988115261\surefirebooter-20240617175200623_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="39339"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\39339\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\39339\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\Users\39339\eclipse\contobancario"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Apache\apache-maven-3.9.6\bin;C:\Users\39339\AppData\Local\Microsoft\WindowsApps;C:\Users\39339\AppData\Roaming\Composer\vendor\bin;C:\php\php-8.1.19;C:\Users\39339\flutter\flutter\bin;C:\Users\39339\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="trasferimento valido" classname="com.example.SecondHomework.ContoBancarioTest" time="2.053">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:04.262368800, generated = 
+  arg0: "777101205"
+  arg1: "211517156"
+  arg2: 179936.7
+  arg3: 33807.99
+  arg4: -1.7889816975734928E74
+
+
+timestamp = 2024-06-17T17:52:04.392868100, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.0
+  arg4: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.396866500, generated = 
+  arg0: "413513460"
+  arg1: "200806218"
+  arg2: 3.3562335146475E188
+  arg3: 1.06
+  arg4: 4.6205730013366956E86
+
+
+timestamp = 2024-06-17T17:52:04.401868700, generated = 
+  arg0: "396295443"
+  arg1: "847980567"
+  arg2: 5.007729268003487E41
+  arg3: 1.4344202789624407E238
+  arg4: -1.5065154454200842E308
+
+
+timestamp = 2024-06-17T17:52:04.405870100, generated = 
+  arg0: "116071754"
+  arg1: "840262310"
+  arg2: 0.06
+  arg3: 9.460432058936845E127
+  arg4: -0.11
+
+
+timestamp = 2024-06-17T17:52:04.408869, generated = 
+  arg0: "704525902"
+  arg1: "683049557"
+  arg2: 1.7765545522529517E142
+  arg3: 3.1057532237665817E41
+  arg4: 4.841175256614583E60
+
+
+timestamp = 2024-06-17T17:52:04.412869700, generated = 
+  arg0: "811842113"
+  arg1: "078968416"
+  arg2: 2.893240050945876E307
+  arg3: 2.5644482339004243E17
+  arg4: -7.100818040975296E172
+
+
+timestamp = 2024-06-17T17:52:04.415869400, generated = 
+  arg0: "497702208"
+  arg1: "734966045"
+  arg2: 350158.93
+  arg3: 6.803584211590259E86
+  arg4: 3.037790667268088E32
+
+
+timestamp = 2024-06-17T17:52:04.418869500, generated = 
+  arg0: "866794449"
+  arg1: "499302547"
+  arg2: 6.237530087681235E127
+  arg3: 1.0374967007E8
+  arg4: -1.2309792242992023E128
+
+
+timestamp = 2024-06-17T17:52:04.422871400, generated = 
+  arg0: "529991337"
+  arg1: "348697394"
+  arg2: 480.73
+  arg3: 1.3111480777850397E52
+  arg4: 2.548522882E7
+
+
+timestamp = 2024-06-17T17:52:04.428871900, generated = 
+  arg0: "726973798"
+  arg1: "231638867"
+  arg2: 481.94
+  arg3: 3.401124429991864E113
+  arg4: -4.1525817552429036E74
+
+
+timestamp = 2024-06-17T17:52:04.433873300, generated = 
+  arg0: "687380619"
+  arg1: "494170465"
+  arg2: 1.6628017600906182E24
+  arg3: 4.7646870381456146E157
+  arg4: -1.8360931008303075E100
+
+
+timestamp = 2024-06-17T17:52:04.440872500, generated = 
+  arg0: "288846094"
+  arg1: "496173205"
+  arg2: 3.23786453125694E188
+  arg3: 1.7976931348623157E308
+  arg4: -1.211640680932468E24
+
+
+timestamp = 2024-06-17T17:52:04.465398600, generated = 
+  arg0: "639818340"
+  arg1: "835425802"
+  arg2: 3.03
+  arg3: 0.44
+  arg4: -1.1223840724819582E52
+
+
+timestamp = 2024-06-17T17:52:04.475399, generated = 
+  arg0: "180891112"
+  arg1: "251361486"
+  arg2: 3.707112223917001E113
+  arg3: 1.7506385550352472E24
+  arg4: 5.819387203635298E41
+
+
+timestamp = 2024-06-17T17:52:04.482396200, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.0
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.493398200, generated = 
+  arg0: "355101681"
+  arg1: "844785130"
+  arg2: 8.199904262315323E203
+  arg3: 1.828826213215033E17
+  arg4: 4.047819167262696E142
+
+
+timestamp = 2024-06-17T17:52:04.500399100, generated = 
+  arg0: "310018427"
+  arg1: "273144412"
+  arg2: 0.12
+  arg3: 36285.34
+  arg4: -1.0325153311583119E50
+
+
+timestamp = 2024-06-17T17:52:04.514400300, generated = 
+  arg0: "080753348"
+  arg1: "279433839"
+  arg2: 3.0632022036007803E157
+  arg3: 1.0
+  arg4: -1.4805795692421443E17
+
+
+timestamp = 2024-06-17T17:52:04.516399500, generated = 
+  arg0: "362941871"
+  arg1: "760734860"
+  arg2: 0.39
+  arg3: 1672.74
+  arg4: 4.547031882849415E157
+
+
+timestamp = 2024-06-17T17:52:04.519399, generated = 
+  arg0: "793928626"
+  arg1: "941144198"
+  arg2: 2.5602216424962E11
+  arg3: 4.3707857395368E11
+  arg4: -2.9849398320357114E221
+
+
+timestamp = 2024-06-17T17:52:04.527399100, generated = 
+  arg0: "200822737"
+  arg1: "420356075"
+  arg2: 4.75
+  arg3: 4.088190840353486E41
+  arg4: -325.38
+
+
+timestamp = 2024-06-17T17:52:04.531400, generated = 
+  arg0: "509530259"
+  arg1: "100833607"
+  arg2: 2526.81
+  arg3: 8.4170507438165E11
+  arg4: 5.850432929784567E16
+
+
+timestamp = 2024-06-17T17:52:04.545402400, generated = 
+  arg0: "843274617"
+  arg1: "629746343"
+  arg2: 21967.17
+  arg3: 7698.51
+  arg4: -4.6317102401273904E306
+
+
+timestamp = 2024-06-17T17:52:04.551408400, generated = 
+  arg0: "712927295"
+  arg1: "696329937"
+  arg2: 38816.68
+  arg3: 195.79
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.554406700, generated = 
+  arg0: "541221214"
+  arg1: "010836660"
+  arg2: 1.4766546175453109E221
+  arg3: 2.4096564488004902E157
+  arg4: 0.42
+
+
+timestamp = 2024-06-17T17:52:04.556408800, generated = 
+  arg0: "653689376"
+  arg1: "946055815"
+  arg2: 1.0
+  arg3: 1.0274670463454373E238
+  arg4: 0.12
+
+
+timestamp = 2024-06-17T17:52:04.560405, generated = 
+  arg0: "955081606"
+  arg1: "481605401"
+  arg2: 3850906.0
+  arg3: 62482.72
+  arg4: -6.930219425740086E62
+
+
+timestamp = 2024-06-17T17:52:04.562925300, generated = 
+  arg0: "655507959"
+  arg1: "202225978"
+  arg2: 2.61
+  arg3: 39982.85
+  arg4: 0.01
+
+
+timestamp = 2024-06-17T17:52:04.565936200, generated = 
+  arg0: "295252396"
+  arg1: "201517325"
+  arg2: 2.3885838476097962E219
+  arg3: 4.9318815764860447E204
+  arg4: -3.8040889041734656E74
+
+
+timestamp = 2024-06-17T17:52:04.569934500, generated = 
+  arg0: "634003311"
+  arg1: "784396316"
+  arg2: 0.32
+  arg3: 13396.58
+  arg4: 594.7
+
+
+timestamp = 2024-06-17T17:52:04.572935700, generated = 
+  arg0: "999999999"
+  arg1: "750586486"
+  arg2: 2.7529103914819184E220
+  arg3: 1.7237073576542804E113
+  arg4: -1.2652873945967938E32
+
+
+timestamp = 2024-06-17T17:52:04.575936500, generated = 
+  arg0: "196527394"
+  arg1: "009242742"
+  arg2: 1.7432600956964102E157
+  arg3: 17.1
+  arg4: -0.01
+
+
+timestamp = 2024-06-17T17:52:04.577937700, generated = 
+  arg0: "753942367"
+  arg1: "511524489"
+  arg2: 0.01
+  arg3: 7.607837520263809E307
+  arg4: 3.337403107077275E113
+
+
+timestamp = 2024-06-17T17:52:04.579936700, generated = 
+  arg0: "548697230"
+  arg1: "540639307"
+  arg2: 8.5098724296901E11
+  arg3: 1.7425954917903551E24
+  arg4: -6.092536398437325E99
+
+
+timestamp = 2024-06-17T17:52:04.581937400, generated = 
+  arg0: "786807851"
+  arg1: "467411021"
+  arg2: 1.1862986051176358E142
+  arg3: 1020.94
+  arg4: -1.3370145732213797E87
+
+
+timestamp = 2024-06-17T17:52:04.584938500, generated = 
+  arg0: "986427615"
+  arg1: "503009722"
+  arg2: 9.948249639127288E51
+  arg3: 4.629887135290418E99
+  arg4: -1.0446030397113087E41
+
+
+timestamp = 2024-06-17T17:52:04.586938600, generated = 
+  arg0: "828580449"
+  arg1: "278061953"
+  arg2: 1.714660909462151E221
+  arg3: 2.04
+  arg4: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.588937500, generated = 
+  arg0: "260830590"
+  arg1: "510180675"
+  arg2: 12.33
+  arg3: 346.02
+  arg4: 58619.66
+
+
+timestamp = 2024-06-17T17:52:04.590939200, generated = 
+  arg0: "329877325"
+  arg1: "567080457"
+  arg2: 2.4174888641638107E157
+  arg3: 262802.13
+  arg4: 0.2
+
+
+timestamp = 2024-06-17T17:52:04.591940, generated = 
+  arg0: "983354582"
+  arg1: "444305937"
+  arg2: 1.5257463142038335E99
+  arg3: 0.06
+  arg4: 18.52
+
+
+timestamp = 2024-06-17T17:52:04.594940100, generated = 
+  arg0: "384500775"
+  arg1: "170065818"
+  arg2: 3.85
+  arg3: 9.33071940710012E172
+  arg4: -5.882873788742482E187
+
+
+timestamp = 2024-06-17T17:52:04.598937300, generated = 
+  arg0: "028714875"
+  arg1: "681853919"
+  arg2: 8.3941705903009E11
+  arg3: 7.9930112982E11
+  arg4: 0.86
+
+
+timestamp = 2024-06-17T17:52:04.600939200, generated = 
+  arg0: "312848120"
+  arg1: "767118902"
+  arg2: 4.7621407282392684E187
+  arg3: 2.1545223279480505E24
+  arg4: -3.442392169274272E41
+
+
+timestamp = 2024-06-17T17:52:04.603938700, generated = 
+  arg0: "916907205"
+  arg1: "902840412"
+  arg2: 2.111735051023347E24
+  arg3: 6.623148007127776E31
+  arg4: -3.117441033705412E17
+
+
+timestamp = 2024-06-17T17:52:04.607940600, generated = 
+  arg0: "198299934"
+  arg1: "204071006"
+  arg2: 5.283731589802883E271
+  arg3: 8.542463452785924E73
+  arg4: -3.292407031097863E113
+
+
+timestamp = 2024-06-17T17:52:04.609939600, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.0
+  arg4: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.611939100, generated = 
+  arg0: "724059936"
+  arg1: "975519051"
+  arg2: 1.2215884539E8
+  arg3: 5.101092747873221E41
+  arg4: -8.241409640862616E204
+
+
+timestamp = 2024-06-17T17:52:04.613939500, generated = 
+  arg0: "328220143"
+  arg1: "312562327"
+  arg2: 5.2974867312066175E113
+  arg3: 420.36
+  arg4: -1.26
+
+
+timestamp = 2024-06-17T17:52:04.616938600, generated = 
+  arg0: "969317174"
+  arg1: "075333582"
+  arg2: 2.3764360110265234E272
+  arg3: 1.7876007015631055E308
+  arg4: 489.47
+
+
+timestamp = 2024-06-17T17:52:04.618942700, generated = 
+  arg0: "088335583"
+  arg1: "981723516"
+  arg2: 2.05
+  arg3: 1.2332024414756188E87
+  arg4: -2.8787835614025147E204
+
+
+timestamp = 2024-06-17T17:52:04.619939400, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 0.01
+  arg4: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.622940700, generated = 
+  arg0: "279836807"
+  arg1: "966542592"
+  arg2: 1.4313128445702044E24
+  arg3: 7.552555114489775E237
+  arg4: 1.0036835519955766E52
+
+
+timestamp = 2024-06-17T17:52:04.623941900, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 0.01
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.626941300, generated = 
+  arg0: "449317494"
+  arg1: "538703880"
+  arg2: 0.17
+  arg3: 1757.75
+  arg4: 5.431747932513101E74
+
+
+timestamp = 2024-06-17T17:52:04.628943200, generated = 
+  arg0: "274435931"
+  arg1: "813173198"
+  arg2: 2.290196067832686E100
+  arg3: 1.0
+  arg4: -1.5796218741897256E221
+
+
+timestamp = 2024-06-17T17:52:04.631944, generated = 
+  arg0: "576617003"
+  arg1: "835421053"
+  arg2: 2.12570927125737E290
+  arg3: 7.441265019E7
+  arg4: -7.38
+
+
+timestamp = 2024-06-17T17:52:04.633943900, generated = 
+  arg0: "408579619"
+  arg1: "382015596"
+  arg2: 1.6112385089970704E16
+  arg3: 1.8028388666353933E51
+  arg4: -6.003499629530157E99
+
+
+timestamp = 2024-06-17T17:52:04.634942800, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 0.01
+  arg4: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.638942200, generated = 
+  arg0: "841389547"
+  arg1: "348619676"
+  arg2: 4.2365869829979294E86
+  arg3: 2.124941619742171E172
+  arg4: -6.329683125239848E127
+
+
+timestamp = 2024-06-17T17:52:04.639942400, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.7976931348623157E308
+  arg4: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.641942400, generated = 
+  arg0: "285376489"
+  arg1: "195779142"
+  arg2: 15.22
+  arg3: 1.5785055985313115E255
+  arg4: 7.496678361354322E204
+
+
+timestamp = 2024-06-17T17:52:04.644940700, generated = 
+  arg0: "696907695"
+  arg1: "591659326"
+  arg2: 4.260602901005294E62
+  arg3: 1.6816808638570913E308
+  arg4: 0.8
+
+
+timestamp = 2024-06-17T17:52:04.646944200, generated = 
+  arg0: "177020205"
+  arg1: "048502832"
+  arg2: 0.02
+  arg3: 6.883550108892108E113
+  arg4: 1.6210915093166483E100
+
+
+timestamp = 2024-06-17T17:52:04.647951400, generated = 
+  arg0: "427272172"
+  arg1: "377138422"
+  arg2: 0.72
+  arg3: 4.222678803074606E113
+  arg4: 0.22
+
+
+timestamp = 2024-06-17T17:52:04.649951800, generated = 
+  arg0: "887408640"
+  arg1: "309376222"
+  arg2: 3.3605897377353516E127
+  arg3: 54005.82
+  arg4: 496.52
+
+
+timestamp = 2024-06-17T17:52:04.651950200, generated = 
+  arg0: "937798457"
+  arg1: "023768914"
+  arg2: 0.26
+  arg3: 11.13
+  arg4: -2.8504686466604077E221
+
+
+timestamp = 2024-06-17T17:52:04.653949, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.7976931348623157E308
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.654947300, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 1.0
+  arg3: 1.7976931348623157E308
+  arg4: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.656950500, generated = 
+  arg0: "728041956"
+  arg1: "061062674"
+  arg2: 0.21
+  arg3: 1.2701332184282636E87
+  arg4: 1396.66
+
+
+timestamp = 2024-06-17T17:52:04.657949100, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 1.0
+  arg4: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.660949600, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 1.0
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.663469600, generated = 
+  arg0: "826642848"
+  arg1: "075888393"
+  arg2: 3.5136878743650843E74
+  arg3: 1.247672408925413E24
+  arg4: 7.496030983492834E74
+
+
+timestamp = 2024-06-17T17:52:04.665468500, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 1.0
+  arg4: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.670468900, generated = 
+  arg0: "719281856"
+  arg1: "992687592"
+  arg2: 1.3552224541006752E308
+  arg3: 2.802790512810227E157
+  arg4: -9.156556265246944E204
+
+
+timestamp = 2024-06-17T17:52:04.672469400, generated = 
+  arg0: "794384708"
+  arg1: "000000000"
+  arg2: 5.458993713E7
+  arg3: 2.6933772649445167E254
+  arg4: -2.1027023084995303E100
+
+
+timestamp = 2024-06-17T17:52:04.676468900, generated = 
+  arg0: "363526422"
+  arg1: "863709017"
+  arg2: 4.6743253732951635E41
+  arg3: 1.5854801332023957E255
+  arg4: -7.152084214022127E74
+
+
+timestamp = 2024-06-17T17:52:04.678469100, generated = 
+  arg0: "516797765"
+  arg1: "004843476"
+  arg2: 3.2513446765267456E113
+  arg3: 8.353410767426369E51
+  arg4: 2.27979583110731E236
+
+
+timestamp = 2024-06-17T17:52:04.680473800, generated = 
+  arg0: "736127672"
+  arg1: "442068120"
+  arg2: 5.486350918168761E74
+  arg3: 2.9520832897341605E32
+  arg4: 3.0709155370969207E85
+
+
+timestamp = 2024-06-17T17:52:04.684471300, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 0.01
+  arg4: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.686469700, generated = 
+  arg0: "616255593"
+  arg1: "525379841"
+  arg2: 1.7976931348623157E308
+  arg3: 1662.26
+  arg4: 8.439164840024424E51
+
+
+timestamp = 2024-06-17T17:52:04.689469900, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 0.01
+  arg4: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.691470200, generated = 
+  arg0: "270465784"
+  arg1: "146023668"
+  arg2: 0.03
+  arg3: 3.3150784704913937E62
+  arg4: -0.09
+
+
+timestamp = 2024-06-17T17:52:04.692471200, generated = 
+  arg0: "000000000"
+  arg1: "000000000"
+  arg2: 0.01
+  arg3: 0.01
+  arg4: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.694471900, generated = 
+  arg0: "530595804"
+  arg1: "402836565"
+  arg2: 1.890273223465428E100
+  arg3: 2.6
+  arg4: -59.96
+
+
+timestamp = 2024-06-17T17:52:04.696471100, generated = 
+  arg0: "365184994"
+  arg1: "810683777"
+  arg2: 1.232465645206757E308
+  arg3: 6.245072772191815E220
+  arg4: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.698470, generated = 
+  arg0: "457447079"
+  arg1: "893527419"
+  arg2: 1.1486770127951124E24
+  arg3: 5.5180772444553125E188
+  arg4: 0.11
+
+
+timestamp = 2024-06-17T17:52:04.700470700, generated = 
+  arg0: "285099143"
+  arg1: "690133736"
+  arg2: 0.35
+  arg3: 1.887382358162437E100
+  arg4: 4.7545571825737636E272
+
+
+timestamp = 2024-06-17T17:52:04.702470600, generated = 
+  arg0: "951293486"
+  arg1: "326467718"
+  arg2: 5.00074876071021E62
+  arg3: 65.36
+  arg4: 6.368449765401337E127
+
+
+timestamp = 2024-06-17T17:52:04.703471700, generated = 
+  arg0: "876463038"
+  arg1: "489409360"
+  arg2: 157.52
+  arg3: 1766.2
+  arg4: -1.3310854436815863E32
+
+
+timestamp = 2024-06-17T17:52:04.705471500, generated = 
+  arg0: "958033140"
+  arg1: "184934459"
+  arg2: 8.961630360600775E307
+  arg3: 824.89
+  arg4: 2.478694950713515E17
+
+
+timestamp = 2024-06-17T17:52:04.711473200, generated = 
+  arg0: "633302683"
+  arg1: "144158606"
+  arg2: 2.965902485613428E31
+  arg3: 1.3849749099678248E290
+  arg4: 1.313648490822176E63
+
+
+timestamp = 2024-06-17T17:52:04.713472800, generated = 
+  arg0: "067122909"
+  arg1: "354864592"
+  arg2: 3.628247189908934E41
+  arg3: 2.141351132580249E17
+  arg4: -1.082779926351686E32
+
+
+timestamp = 2024-06-17T17:52:04.715474100, generated = 
+  arg0: "782207397"
+  arg1: "097628341"
+  arg2: 42.52
+  arg3: 84.36
+  arg4: -423229.71
+
+
+timestamp = 2024-06-17T17:52:04.717471800, generated = 
+  arg0: "996244282"
+  arg1: "678779776"
+  arg2: 1.949534748242583E127
+  arg3: 5.006689018513075E237
+  arg4: -17298.93
+
+
+timestamp = 2024-06-17T17:52:04.730471900, generated = 
+  arg0: "349161462"
+  arg1: "886497324"
+  arg2: 1.7119861651610425E100
+  arg3: 1.154393232940821E51
+  arg4: -3.629287923017414E41
+
+
+timestamp = 2024-06-17T17:52:04.732472400, generated = 
+  arg0: "164591567"
+  arg1: "280745152"
+  arg2: 2.2997258332183824E221
+  arg3: 1.776375822765137E87
+  arg4: -1.06
+
+
+timestamp = 2024-06-17T17:52:04.733472200, generated = 
+  arg0: "712805148"
+  arg1: "934623756"
+  arg2: 5.797256636E7
+  arg3: 2.9961624757558844E32
+  arg4: 5.629058789062486E127
+
+
+timestamp = 2024-06-17T17:52:04.739475300, generated = 
+  arg0: "592162867"
+  arg1: "412465537"
+  arg2: 2.21
+  arg3: 4.018231310961306E272
+  arg4: -3.998626206659943E157
+
+
+timestamp = 2024-06-17T17:52:04.741472100, generated = 
+  arg0: "997153707"
+  arg1: "667140884"
+  arg2: 1.8429657717806313E87
+  arg3: 6.4673759702063E11
+  arg4: 2.327501351241857E99
+
+
+timestamp = 2024-06-17T17:52:04.778992, [ContoBancarioTest:trasferimento valido] (100) statistics = 
+       # |                                          label | count | 
+    -----|------------------------------------------------|-------|---------------------------------------------------------------------------------
+       0 |   Trasferimento fallito 1.7976931348623157E308 |     2 | ##
+       1 |                      Trasferimento fallito 1.0 |     2 | ##
+       2 |     Trasferimento fallito 3.037790667268088E32 |     1 | #
+       3 |            Trasferimento fallito 2.548522882E7 |     1 | #
+       4 |    Trasferimento fallito 4.547031882849415E157 |     1 | #
+       5 |     Trasferimento fallito 5.850432929784567E16 |     1 | #
+       6 |                    Trasferimento fallito 594.7 |     1 | #
+       7 |    Trasferimento fallito 3.337403107077275E113 |     1 | #
+       8 |                 Trasferimento fallito 58619.66 |     1 | #
+       9 |    Trasferimento fallito 1.0036835519955766E52 |     1 | #
+      10 |     Trasferimento fallito 5.431747932513101E74 |     1 | #
+      11 |    Trasferimento fallito 7.496678361354322E204 |     1 | #
+      12 |   Trasferimento fallito 1.6210915093166483E100 |     1 | #
+      13 |                  Trasferimento fallito 1396.66 |     1 | #
+      14 |     Trasferimento fallito 7.496030983492834E74 |     1 | #
+      15 |     Trasferimento fallito 2.27979583110731E236 |     1 | #
+      16 |    Trasferimento fallito 3.0709155370969207E85 |     1 | #
+      17 |   Trasferimento fallito 4.7545571825737636E272 |     1 | #
+      18 |    Trasferimento fallito 6.368449765401337E127 |     1 | #
+      19 |     Trasferimento fallito 1.313648490822176E63 |     1 | #
+      20 |    Trasferimento fallito 5.629058789062486E127 |     1 | #
+      21 |     Trasferimento fallito 2.327501351241857E99 |     1 | #
+      22 |                     Trasferimento negativo 0.0 |     5 | #####
+      23 |                    Trasferimento negativo -1.0 |     5 | #####
+      24 |  Trasferimento negativo -1.7889816975734928E74 |     1 | #
+      25 | Trasferimento negativo -1.5065154454200842E308 |     1 | #
+      26 |                   Trasferimento negativo -0.11 |     1 | #
+      27 |  Trasferimento negativo -7.100818040975296E172 |     1 | #
+      28 | Trasferimento negativo -1.2309792242992023E128 |     1 | #
+      29 |  Trasferimento negativo -4.1525817552429036E74 |     1 | #
+      30 | Trasferimento negativo -1.8360931008303075E100 |     1 | #
+      31 |   Trasferimento negativo -1.211640680932468E24 |     1 | #
+      32 |  Trasferimento negativo -1.1223840724819582E52 |     1 | #
+      33 |  Trasferimento negativo -1.0325153311583119E50 |     1 | #
+      34 |  Trasferimento negativo -1.4805795692421443E17 |     1 | #
+      35 | Trasferimento negativo -2.9849398320357114E221 |     1 | #
+      36 |                 Trasferimento negativo -325.38 |     1 | #
+      37 | Trasferimento negativo -4.6317102401273904E306 |     1 | #
+      38 |   Trasferimento negativo -6.930219425740086E62 |     1 | #
+      39 |  Trasferimento negativo -3.8040889041734656E74 |     1 | #
+      40 |  Trasferimento negativo -1.2652873945967938E32 |     1 | #
+      41 |                   Trasferimento negativo -0.01 |     1 | #
+      42 |   Trasferimento negativo -6.092536398437325E99 |     1 | #
+      43 |  Trasferimento negativo -1.3370145732213797E87 |     1 | #
+      44 |  Trasferimento negativo -1.0446030397113087E41 |     1 | #
+      45 |  Trasferimento negativo -5.882873788742482E187 |     1 | #
+      46 |   Trasferimento negativo -3.442392169274272E41 |     1 | #
+      47 |   Trasferimento negativo -3.117441033705412E17 |     1 | #
+      48 |  Trasferimento negativo -3.292407031097863E113 |     1 | #
+      49 |  Trasferimento negativo -8.241409640862616E204 |     1 | #
+      50 |                   Trasferimento negativo -1.26 |     1 | #
+      51 | Trasferimento negativo -2.8787835614025147E204 |     1 | #
+      52 | Trasferimento negativo -1.5796218741897256E221 |     1 | #
+      53 |                   Trasferimento negativo -7.38 |     1 | #
+      54 |   Trasferimento negativo -6.003499629530157E99 |     1 | #
+      55 |  Trasferimento negativo -6.329683125239848E127 |     1 | #
+      56 | Trasferimento negativo -2.8504686466604077E221 |     1 | #
+      57 |  Trasferimento negativo -9.156556265246944E204 |     1 | #
+      58 | Trasferimento negativo -2.1027023084995303E100 |     1 | #
+      59 |   Trasferimento negativo -7.152084214022127E74 |     1 | #
+      60 |                   Trasferimento negativo -0.09 |     1 | #
+      61 |                  Trasferimento negativo -59.96 |     1 | #
+      62 |  Trasferimento negativo -1.3310854436815863E32 |     1 | #
+      63 |   Trasferimento negativo -1.082779926351686E32 |     1 | #
+      64 |              Trasferimento negativo -423229.71 |     1 | #
+      65 |               Trasferimento negativo -17298.93 |     1 | #
+      66 |   Trasferimento negativo -3.629287923017414E41 |     1 | #
+      67 |                   Trasferimento negativo -1.06 |     1 | #
+      68 |  Trasferimento negativo -3.998626206659943E157 |     1 | #
+      69 |                     Trasferimento positivo 1.0 |     4 | ####
+      70 |   Trasferimento positivo 4.6205730013366956E86 |     1 | #
+      71 |    Trasferimento positivo 4.841175256614583E60 |     1 | #
+      72 |    Trasferimento positivo 5.819387203635298E41 |     1 | #
+      73 |   Trasferimento positivo 4.047819167262696E142 |     1 | #
+      74 |                    Trasferimento positivo 0.42 |     1 | #
+      75 |                    Trasferimento positivo 0.12 |     1 | #
+      76 |                    Trasferimento positivo 0.01 |     1 | #
+      77 |                     Trasferimento positivo 0.2 |     1 | #
+      78 |                   Trasferimento positivo 18.52 |     1 | #
+      79 |                    Trasferimento positivo 0.86 |     1 | #
+      80 |                  Trasferimento positivo 489.47 |     1 | #
+      81 |                     Trasferimento positivo 0.8 |     1 | #
+      82 |                    Trasferimento positivo 0.22 |     1 | #
+      83 |                  Trasferimento positivo 496.52 |     1 | #
+      84 |    Trasferimento positivo 8.439164840024424E51 |     1 | #
+      85 |                    Trasferimento positivo 0.11 |     1 | #
+      86 |    Trasferimento positivo 2.478694950713515E17 |     1 | #
+
+timestamp = 2024-06-17T17:52:04.790993400, ContoBancarioTest:trasferimento valido = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 108        | # of all combined edge cases
+edge-cases#tried = 15         | # of edge cases tried in current run
+seed = -7278406711286167314   | random seed to reproduce generated values
+
+
+]]></system-out>
+    <system-err><![CDATA[giu 17, 2024 5:52:03 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 108 generated cases.
+]]></system-err>
+  </testcase>
+  <testcase name="prelievo nonNegativo" classname="com.example.SecondHomework.ContoBancarioTest" time="0.179">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:04.833996100, generated = 
+  arg0: "393144106"
+  arg1: 1.0
+  arg2: 0.6
+
+
+timestamp = 2024-06-17T17:52:04.840997700, generated = 
+  arg0: "180410241"
+  arg1: 6.589351465396917E254
+  arg2: -4.11
+
+
+timestamp = 2024-06-17T17:52:04.843998700, generated = 
+  arg0: "379203459"
+  arg1: 0.01
+  arg2: 8.4591343848058E11
+
+
+timestamp = 2024-06-17T17:52:04.846998500, generated = 
+  arg0: "642887308"
+  arg1: 1.4529788515415631E221
+  arg2: 1059.1
+
+
+timestamp = 2024-06-17T17:52:04.848001900, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.850002900, generated = 
+  arg0: "615673784"
+  arg1: 2.598558586840073E142
+  arg2: -1.6271027693635297E308
+
+
+timestamp = 2024-06-17T17:52:04.851002, generated = 
+  arg0: "842249312"
+  arg1: 9.654267709565666E23
+  arg2: -3.208278462529968E127
+
+
+timestamp = 2024-06-17T17:52:04.852002600, generated = 
+  arg0: "410860546"
+  arg1: 1.7976931348623157E308
+  arg2: 6.98
+
+
+timestamp = 2024-06-17T17:52:04.854004200, generated = 
+  arg0: "295616408"
+  arg1: 2.9335972557221067E40
+  arg2: 5.009341101684932E188
+
+
+timestamp = 2024-06-17T17:52:04.855003, generated = 
+  arg0: "147025413"
+  arg1: 4.397080077943971E157
+  arg2: -1.6757510971522982E74
+
+
+timestamp = 2024-06-17T17:52:04.856004600, generated = 
+  arg0: "813070558"
+  arg1: 4.162414873630742E272
+  arg2: -1.02
+
+
+timestamp = 2024-06-17T17:52:04.858006400, generated = 
+  arg0: "983641207"
+  arg1: 7.482324953699627E172
+  arg2: -71087.42
+
+
+timestamp = 2024-06-17T17:52:04.858006400, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.859006500, generated = 
+  arg0: "179657720"
+  arg1: 1.0208656706E8
+  arg2: 0.78
+
+
+timestamp = 2024-06-17T17:52:04.860004100, generated = 
+  arg0: "561938612"
+  arg1: 2.1073545424217057E74
+  arg2: -4.174666845898548E188
+
+
+timestamp = 2024-06-17T17:52:04.861004300, generated = 
+  arg0: "770251055"
+  arg1: 6.298758408563954E188
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.862520300, generated = 
+  arg0: "881059981"
+  arg1: 1.263909185197996E100
+  arg2: 11142.77
+
+
+timestamp = 2024-06-17T17:52:04.863528, generated = 
+  arg0: "974278313"
+  arg1: 6.574657605E7
+  arg2: 4.66
+
+
+timestamp = 2024-06-17T17:52:04.864527, generated = 
+  arg0: "812083151"
+  arg1: 3.501003956338954E41
+  arg2: -7.424471379828139E112
+
+
+timestamp = 2024-06-17T17:52:04.865526500, generated = 
+  arg0: "602542172"
+  arg1: 1.7976931348623157E308
+  arg2: 1.8321886435679364E87
+
+
+timestamp = 2024-06-17T17:52:04.866528400, generated = 
+  arg0: "971771384"
+  arg1: 4.07172211070236E307
+  arg2: -0.25
+
+
+timestamp = 2024-06-17T17:52:04.867528600, generated = 
+  arg0: "643280410"
+  arg1: 3.1742006185517735E140
+  arg2: 2.7775367367006927E157
+
+
+timestamp = 2024-06-17T17:52:04.869529900, generated = 
+  arg0: "221059992"
+  arg1: 2.7260976852016224E17
+  arg2: 5.441067805449723E31
+
+
+timestamp = 2024-06-17T17:52:04.870531100, generated = 
+  arg0: "908573126"
+  arg1: 7.265030824708904E86
+  arg2: 1.1260958559018182E255
+
+
+timestamp = 2024-06-17T17:52:04.872530300, generated = 
+  arg0: "645893150"
+  arg1: 1.4777575986943083E87
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.874532900, generated = 
+  arg0: "809470839"
+  arg1: 2.0492860850415777E157
+  arg2: 46731.08
+
+
+timestamp = 2024-06-17T17:52:04.875530500, generated = 
+  arg0: "481065630"
+  arg1: 1425.0
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.877529400, generated = 
+  arg0: "361652405"
+  arg1: 1.2369338857044336E63
+  arg2: 106786.99
+
+
+timestamp = 2024-06-17T17:52:04.878530700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.880533200, generated = 
+  arg0: "577194820"
+  arg1: 6.709031465508767E271
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.881536600, generated = 
+  arg0: "759858721"
+  arg1: 2.289093655319531E100
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.882533300, generated = 
+  arg0: "220972501"
+  arg1: 1.0
+  arg2: 8.376833530671326E39
+
+
+timestamp = 2024-06-17T17:52:04.884530900, generated = 
+  arg0: "759361616"
+  arg1: 9.563270780280571E85
+  arg2: -7.847361000960792E237
+
+
+timestamp = 2024-06-17T17:52:04.886529100, generated = 
+  arg0: "604060982"
+  arg1: 1.0591730855502204E290
+  arg2: 1.303994258038987E220
+
+
+timestamp = 2024-06-17T17:52:04.887531800, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:04.888530400, generated = 
+  arg0: "733498792"
+  arg1: 5.12562025269606E31
+  arg2: -6.195592947E7
+
+
+timestamp = 2024-06-17T17:52:04.889530400, generated = 
+  arg0: "400854911"
+  arg1: 439.08
+  arg2: -1106.85
+
+
+timestamp = 2024-06-17T17:52:04.890532100, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:04.891533, generated = 
+  arg0: "185957100"
+  arg1: 54582.62
+  arg2: -6.87052029896228E188
+
+
+timestamp = 2024-06-17T17:52:04.892533600, generated = 
+  arg0: "850491762"
+  arg1: 108848.96
+  arg2: -7443283.55
+
+
+timestamp = 2024-06-17T17:52:04.893530500, generated = 
+  arg0: "999999999"
+  arg1: 13.89
+  arg2: -0.02
+
+
+timestamp = 2024-06-17T17:52:04.895531700, generated = 
+  arg0: "368911436"
+  arg1: 6.974500306E7
+  arg2: 9.711467942253192E219
+
+
+timestamp = 2024-06-17T17:52:04.896533100, generated = 
+  arg0: "444966535"
+  arg1: 1.0772770990950209E308
+  arg2: -6.815603334662417E99
+
+
+timestamp = 2024-06-17T17:52:04.898530400, generated = 
+  arg0: "454705154"
+  arg1: 3.153873209554896E41
+  arg2: -1.539786130799381E221
+
+
+timestamp = 2024-06-17T17:52:04.899532600, generated = 
+  arg0: "604320908"
+  arg1: 25527.17
+  arg2: -1.4945636946112154E308
+
+
+timestamp = 2024-06-17T17:52:04.900534200, generated = 
+  arg0: "124350028"
+  arg1: 14.96
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.902531700, generated = 
+  arg0: "213979400"
+  arg1: 3.262046883063114E188
+  arg2: 3.783924683888522E272
+
+
+timestamp = 2024-06-17T17:52:04.903531200, generated = 
+  arg0: "613875223"
+  arg1: 2.27
+  arg2: 5804.07
+
+
+timestamp = 2024-06-17T17:52:04.905535400, generated = 
+  arg0: "029883154"
+  arg1: 655.95
+  arg2: 1.3579752321282814E238
+
+
+timestamp = 2024-06-17T17:52:04.906534700, generated = 
+  arg0: "753069182"
+  arg1: 9.652601325413698E50
+  arg2: 4.8414828466295525E142
+
+
+timestamp = 2024-06-17T17:52:04.908534200, generated = 
+  arg0: "880232642"
+  arg1: 1.84
+  arg2: 3.5432790975542883E74
+
+
+timestamp = 2024-06-17T17:52:04.909535300, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.910533, generated = 
+  arg0: "495633810"
+  arg1: 8.009306008600295E204
+  arg2: -0.18
+
+
+timestamp = 2024-06-17T17:52:04.911536200, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.913533500, generated = 
+  arg0: "471826930"
+  arg1: 6.788184382608053E254
+  arg2: 4.068154309763834E41
+
+
+timestamp = 2024-06-17T17:52:04.914532500, generated = 
+  arg0: "484712546"
+  arg1: 0.2
+  arg2: -73.38
+
+
+timestamp = 2024-06-17T17:52:04.915533700, generated = 
+  arg0: "861093554"
+  arg1: 4.7538035161167225E62
+  arg2: 1.1960698119449476E255
+
+
+timestamp = 2024-06-17T17:52:04.917532500, generated = 
+  arg0: "999999999"
+  arg1: 7.28
+  arg2: 3.3448168764279364E99
+
+
+timestamp = 2024-06-17T17:52:04.918537400, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.920538400, generated = 
+  arg0: "949118147"
+  arg1: 0.04
+  arg2: 1.81988286954825E51
+
+
+timestamp = 2024-06-17T17:52:04.921534800, generated = 
+  arg0: "097555000"
+  arg1: 3.578209773868811E113
+  arg2: -2.5662629193125083E31
+
+
+timestamp = 2024-06-17T17:52:04.924536200, generated = 
+  arg0: "566113217"
+  arg1: 6.604756314874444E237
+  arg2: 6.171377323587545E127
+
+
+timestamp = 2024-06-17T17:52:04.925535100, generated = 
+  arg0: "782287215"
+  arg1: 0.11
+  arg2: -1.706938328573136E74
+
+
+timestamp = 2024-06-17T17:52:04.926534, generated = 
+  arg0: "436353834"
+  arg1: 1.7647651771208674E308
+  arg2: 6553.14
+
+
+timestamp = 2024-06-17T17:52:04.927537700, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.928534500, generated = 
+  arg0: "480817365"
+  arg1: 212.42
+  arg2: 43.47
+
+
+timestamp = 2024-06-17T17:52:04.929534800, generated = 
+  arg0: "153027776"
+  arg1: 100.19
+  arg2: 8.3453214261374E11
+
+
+timestamp = 2024-06-17T17:52:04.930535500, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:04.931534600, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:04.932537200, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:04.933537, generated = 
+  arg0: "891422885"
+  arg1: 1.5419782836E8
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.934532, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.935536300, generated = 
+  arg0: "571904194"
+  arg1: 1.4445575918408797E73
+  arg2: 9.310014109308685E127
+
+
+timestamp = 2024-06-17T17:52:04.936534600, generated = 
+  arg0: "081025555"
+  arg1: 4.3046653697149584E41
+  arg2: -4.09
+
+
+timestamp = 2024-06-17T17:52:04.938534700, generated = 
+  arg0: "695853805"
+  arg1: 4.420023588176802E254
+  arg2: -1.3149888114428699E272
+
+
+timestamp = 2024-06-17T17:52:04.939533700, generated = 
+  arg0: "749487461"
+  arg1: 7.540064619977851E51
+  arg2: -4.838379568246098E99
+
+
+timestamp = 2024-06-17T17:52:04.940534600, generated = 
+  arg0: "564834184"
+  arg1: 19.96
+  arg2: -2.6293777149858117E272
+
+
+timestamp = 2024-06-17T17:52:04.942534200, generated = 
+  arg0: "074210248"
+  arg1: 71.84
+  arg2: -1.8377454652192264E24
+
+
+timestamp = 2024-06-17T17:52:04.943534300, generated = 
+  arg0: "718015407"
+  arg1: 1.3892342996E8
+  arg2: 6.810410714E7
+
+
+timestamp = 2024-06-17T17:52:04.944534600, generated = 
+  arg0: "744320382"
+  arg1: 4.3853305867139424E74
+  arg2: -1.2529203032249846E17
+
+
+timestamp = 2024-06-17T17:52:04.945536900, generated = 
+  arg0: "196426461"
+  arg1: 4.903932253818457E51
+  arg2: -7.242769326737397E254
+
+
+timestamp = 2024-06-17T17:52:04.946535700, generated = 
+  arg0: "355862353"
+  arg1: 6.6
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.947534900, generated = 
+  arg0: "372983821"
+  arg1: 0.8
+  arg2: 1.1113367498306655E255
+
+
+timestamp = 2024-06-17T17:52:04.948538, generated = 
+  arg0: "380021466"
+  arg1: 2.0212507342846962E307
+  arg2: 3.453394399699804E17
+
+
+timestamp = 2024-06-17T17:52:04.950538600, generated = 
+  arg0: "614327064"
+  arg1: 3.813563249796992E188
+  arg2: 1.0840368990165173E32
+
+
+timestamp = 2024-06-17T17:52:04.951539300, generated = 
+  arg0: "253756797"
+  arg1: 1.4847049625810215E308
+  arg2: -7.153719599274837E204
+
+
+timestamp = 2024-06-17T17:52:04.952540700, generated = 
+  arg0: "760194543"
+  arg1: 160.64
+  arg2: -3.459258292224558E74
+
+
+timestamp = 2024-06-17T17:52:04.954540900, generated = 
+  arg0: "538757364"
+  arg1: 1.0
+  arg2: -1.9665725757280668E142
+
+
+timestamp = 2024-06-17T17:52:04.955547700, generated = 
+  arg0: "121692984"
+  arg1: 20.26
+  arg2: 2.598596376801446E204
+
+
+timestamp = 2024-06-17T17:52:04.956540600, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:04.958544100, generated = 
+  arg0: "870501569"
+  arg1: 6.592772484593328E112
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.959540500, generated = 
+  arg0: "407529130"
+  arg1: 1.150936620847017E63
+  arg2: -3.0090897090333516E74
+
+
+timestamp = 2024-06-17T17:52:04.961543300, generated = 
+  arg0: "245301631"
+  arg1: 1.6336172291168073E308
+  arg2: 2.2305032594652435E17
+
+
+timestamp = 2024-06-17T17:52:04.962542600, generated = 
+  arg0: "453904366"
+  arg1: 11868.64
+  arg2: -906.47
+
+
+timestamp = 2024-06-17T17:52:04.964072600, generated = 
+  arg0: "064453254"
+  arg1: 7.928167611241855E61
+  arg2: 7.017096403863077E74
+
+
+timestamp = 2024-06-17T17:52:04.965071200, generated = 
+  arg0: "215009601"
+  arg1: 1.0282322303024448E128
+  arg2: -199.69
+
+
+timestamp = 2024-06-17T17:52:04.966072600, generated = 
+  arg0: "398904383"
+  arg1: 3.13
+  arg2: 1.7146893707430895E87
+
+
+timestamp = 2024-06-17T17:52:04.967073100, generated = 
+  arg0: "852807747"
+  arg1: 9.482132068737909E204
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:04.968071500, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:04.969071800, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:04.971073700, [ContoBancarioTest:prelievo nonNegativo] (100) statistics = 
+       # |                label | count | 
+    -----|----------------------|-------|---------------------------------------------------------------------------------
+       0 | Insufficient Balance |    25 | #########################
+       1 |  Negative Withdrawal |    47 | ###############################################
+       2 |     Valid Withdrawal |    28 | ############################
+
+timestamp = 2024-06-17T17:52:04.972072800, ContoBancarioTest:prelievo nonNegativo = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 42         | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = -3814699391704877974   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testNullDestinationAccount" classname="com.example.SecondHomework.ContoBancarioTest" time="0.171">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.007623100, generated = 
+  arg0: "618856590"
+  arg1: 1.0
+  arg2: -3.8955711698591016E289
+
+
+timestamp = 2024-06-17T17:52:05.010621100, generated = 
+  arg0: "564167299"
+  arg1: 2.334036608382937E289
+  arg2: -0.42
+
+
+timestamp = 2024-06-17T17:52:05.011621300, generated = 
+  arg0: "895054930"
+  arg1: 14.2
+  arg2: -2.7929825403825973E41
+
+
+timestamp = 2024-06-17T17:52:05.013625200, generated = 
+  arg0: "999999999"
+  arg1: 276126.65
+  arg2: 1.7698190629816388E74
+
+
+timestamp = 2024-06-17T17:52:05.014621700, generated = 
+  arg0: "429556334"
+  arg1: 1.0365987285665992E205
+  arg2: -2.17281994823101E17
+
+
+timestamp = 2024-06-17T17:52:05.016624, generated = 
+  arg0: "429915517"
+  arg1: 2.0238280152379068E290
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.017620900, generated = 
+  arg0: "320784659"
+  arg1: 7.607301257451855E127
+  arg2: 2.6613010297597837E32
+
+
+timestamp = 2024-06-17T17:52:05.019621600, generated = 
+  arg0: "215816303"
+  arg1: 1.0
+  arg2: -1.7436669212750087E100
+
+
+timestamp = 2024-06-17T17:52:05.020621600, generated = 
+  arg0: "723719746"
+  arg1: 1.0891039908781294E142
+  arg2: -3.042028003560884E62
+
+
+timestamp = 2024-06-17T17:52:05.021619800, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.023622400, generated = 
+  arg0: "081756971"
+  arg1: 1.0
+  arg2: 465.15
+
+
+timestamp = 2024-06-17T17:52:05.025619600, generated = 
+  arg0: "860001770"
+  arg1: 1.9943412670207153E41
+  arg2: 1.9877548115863643E24
+
+
+timestamp = 2024-06-17T17:52:05.026618500, generated = 
+  arg0: "184147553"
+  arg1: 68061.93
+  arg2: -6.251773600183349E74
+
+
+timestamp = 2024-06-17T17:52:05.028620600, generated = 
+  arg0: "830015452"
+  arg1: 8.691099743511132E156
+  arg2: -1.4024698891130868E100
+
+
+timestamp = 2024-06-17T17:52:05.030621500, generated = 
+  arg0: "702079836"
+  arg1: 8.326570530020976E140
+  arg2: 0.34
+
+
+timestamp = 2024-06-17T17:52:05.031623100, generated = 
+  arg0: "166553704"
+  arg1: 4.7541689828702E11
+  arg2: -7.920030030983204E141
+
+
+timestamp = 2024-06-17T17:52:05.033621, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.034619700, generated = 
+  arg0: "366242840"
+  arg1: 1.0
+  arg2: 4.2169398067750855E204
+
+
+timestamp = 2024-06-17T17:52:05.035621100, generated = 
+  arg0: "753231507"
+  arg1: 7.85924845882667E51
+  arg2: -6.57
+
+
+timestamp = 2024-06-17T17:52:05.037621300, generated = 
+  arg0: "646720212"
+  arg1: 0.18
+  arg2: -1.2207337176871615E52
+
+
+timestamp = 2024-06-17T17:52:05.039622100, generated = 
+  arg0: "814791736"
+  arg1: 5.861711016575853E172
+  arg2: 23291.63
+
+
+timestamp = 2024-06-17T17:52:05.040622400, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.042621900, generated = 
+  arg0: "000000000"
+  arg1: 1.1506706459679342E308
+  arg2: -7.634015919671718E86
+
+
+timestamp = 2024-06-17T17:52:05.043622400, generated = 
+  arg0: "768975366"
+  arg1: 1.506271232510525E290
+  arg2: -799.51
+
+
+timestamp = 2024-06-17T17:52:05.045622900, generated = 
+  arg0: "852448366"
+  arg1: 4.6506872889796143E23
+  arg2: -14.76
+
+
+timestamp = 2024-06-17T17:52:05.046623200, generated = 
+  arg0: "833978018"
+  arg1: 0.18
+  arg2: 6156.02
+
+
+timestamp = 2024-06-17T17:52:05.048627700, generated = 
+  arg0: "155144597"
+  arg1: 5.441081953E7
+  arg2: -71315.52
+
+
+timestamp = 2024-06-17T17:52:05.049628800, generated = 
+  arg0: "513239073"
+  arg1: 9.160484844698282E113
+  arg2: 6.24145201948074E172
+
+
+timestamp = 2024-06-17T17:52:05.050630200, generated = 
+  arg0: "386117924"
+  arg1: 19.21
+  arg2: 0.28
+
+
+timestamp = 2024-06-17T17:52:05.051629900, generated = 
+  arg0: "497531352"
+  arg1: 1.9562777979429726E221
+  arg2: -4.9145490249792406E113
+
+
+timestamp = 2024-06-17T17:52:05.052635, generated = 
+  arg0: "912123819"
+  arg1: 3.513776823E7
+  arg2: 1.4078335417697928E41
+
+
+timestamp = 2024-06-17T17:52:05.053634, generated = 
+  arg0: "459060524"
+  arg1: 54575.73
+  arg2: -4.849672528667574E141
+
+
+timestamp = 2024-06-17T17:52:05.054629300, generated = 
+  arg0: "914035885"
+  arg1: 0.12
+  arg2: 7.6
+
+
+timestamp = 2024-06-17T17:52:05.055631400, generated = 
+  arg0: "578746419"
+  arg1: 9.663669734468705E306
+  arg2: 1.7424984165620696E221
+
+
+timestamp = 2024-06-17T17:52:05.056629600, generated = 
+  arg0: "686167013"
+  arg1: 8.563072784E7
+  arg2: -0.68
+
+
+timestamp = 2024-06-17T17:52:05.057633700, generated = 
+  arg0: "796603386"
+  arg1: 0.01
+  arg2: 1.210876287304964E173
+
+
+timestamp = 2024-06-17T17:52:05.059633500, generated = 
+  arg0: "570671137"
+  arg1: 5.61347899284736E237
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.060630700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.060630700, generated = 
+  arg0: "081592900"
+  arg1: 2.6017406802960688E188
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.061630800, generated = 
+  arg0: "243800033"
+  arg1: 3.2616360686473074E126
+  arg2: -3.357874598123345E157
+
+
+timestamp = 2024-06-17T17:52:05.063144, generated = 
+  arg0: "265137441"
+  arg1: 4.160937900887038E307
+  arg2: 20.12
+
+
+timestamp = 2024-06-17T17:52:05.064151100, generated = 
+  arg0: "166478868"
+  arg1: 46850.73
+  arg2: -1.0595139604329028E238
+
+
+timestamp = 2024-06-17T17:52:05.065150800, generated = 
+  arg0: "149363534"
+  arg1: 25.29
+  arg2: -7.97
+
+
+timestamp = 2024-06-17T17:52:05.066149800, generated = 
+  arg0: "000000000"
+  arg1: 0.26
+  arg2: 1.8
+
+
+timestamp = 2024-06-17T17:52:05.067149700, generated = 
+  arg0: "750609425"
+  arg1: 3.85364208397598E307
+  arg2: 163.35
+
+
+timestamp = 2024-06-17T17:52:05.068150, generated = 
+  arg0: "932645543"
+  arg1: 15470.22
+  arg2: -4.987848179655961E74
+
+
+timestamp = 2024-06-17T17:52:05.069149400, generated = 
+  arg0: "701795981"
+  arg1: 1.0618806324687865E173
+  arg2: -9.021549301822207E62
+
+
+timestamp = 2024-06-17T17:52:05.070149900, generated = 
+  arg0: "764295138"
+  arg1: 4.030731767023835E142
+  arg2: 357011.57
+
+
+timestamp = 2024-06-17T17:52:05.071151200, generated = 
+  arg0: "295472636"
+  arg1: 6.3332367603188725E41
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.072148700, generated = 
+  arg0: "424850330"
+  arg1: 1.4639501601721178E87
+  arg2: 6.67
+
+
+timestamp = 2024-06-17T17:52:05.074150300, generated = 
+  arg0: "095767891"
+  arg1: 4.189581045756458E157
+  arg2: 6.004447187386712E271
+
+
+timestamp = 2024-06-17T17:52:05.075151500, generated = 
+  arg0: "893466461"
+  arg1: 323778.04
+  arg2: -0.3
+
+
+timestamp = 2024-06-17T17:52:05.076149500, generated = 
+  arg0: "932761362"
+  arg1: 6.076685421920945E126
+  arg2: -6.429105331600364E271
+
+
+timestamp = 2024-06-17T17:52:05.077149700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.078151600, generated = 
+  arg0: "351914833"
+  arg1: 1.2692763981144723E63
+  arg2: 3115.89
+
+
+timestamp = 2024-06-17T17:52:05.079151100, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.080150800, generated = 
+  arg0: "821342914"
+  arg1: 5.9474442941E8
+  arg2: 3.35881655599263E51
+
+
+timestamp = 2024-06-17T17:52:05.081151500, generated = 
+  arg0: "897396851"
+  arg1: 0.23
+  arg2: 2.781083616827106E272
+
+
+timestamp = 2024-06-17T17:52:05.083154200, generated = 
+  arg0: "950796616"
+  arg1: 1.2172330587121291E238
+  arg2: -5.0528406066746E11
+
+
+timestamp = 2024-06-17T17:52:05.084152700, generated = 
+  arg0: "107241531"
+  arg1: 1408.47
+  arg2: -2.9952085429489516E221
+
+
+timestamp = 2024-06-17T17:52:05.085152300, generated = 
+  arg0: "998457106"
+  arg1: 1.2676346557074432E63
+  arg2: -11123.03
+
+
+timestamp = 2024-06-17T17:52:05.086157700, generated = 
+  arg0: "991013976"
+  arg1: 409035.59
+  arg2: -8.339782642049647E51
+
+
+timestamp = 2024-06-17T17:52:05.088152100, generated = 
+  arg0: "375942691"
+  arg1: 635.9
+  arg2: -8812.23
+
+
+timestamp = 2024-06-17T17:52:05.089153200, generated = 
+  arg0: "352927030"
+  arg1: 706.66
+  arg2: -5.733054399730001E62
+
+
+timestamp = 2024-06-17T17:52:05.090152100, generated = 
+  arg0: "868697128"
+  arg1: 1.4715904602213352E221
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.091153300, generated = 
+  arg0: "230377024"
+  arg1: 2.0844302798945207E290
+  arg2: -7.76786171433022E73
+
+
+timestamp = 2024-06-17T17:52:05.092152700, generated = 
+  arg0: "803254655"
+  arg1: 0.13
+  arg2: 6.961535204368621E113
+
+
+timestamp = 2024-06-17T17:52:05.093153100, generated = 
+  arg0: "134470934"
+  arg1: 6.58582518879E9
+  arg2: 0.45
+
+
+timestamp = 2024-06-17T17:52:05.093153100, generated = 
+  arg0: "062888840"
+  arg1: 1.2631512661904315E142
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.095152600, generated = 
+  arg0: "988279454"
+  arg1: 37.18
+  arg2: 1.3520008939326776E308
+
+
+timestamp = 2024-06-17T17:52:05.096152700, generated = 
+  arg0: "731703893"
+  arg1: 40.81
+  arg2: 384.64
+
+
+timestamp = 2024-06-17T17:52:05.097150500, generated = 
+  arg0: "902029098"
+  arg1: 8.47
+  arg2: 52.75
+
+
+timestamp = 2024-06-17T17:52:05.098153600, generated = 
+  arg0: "507452413"
+  arg1: 1.6424677642954949E308
+  arg2: -1.4384120346034514E272
+
+
+timestamp = 2024-06-17T17:52:05.102153600, generated = 
+  arg0: "808206774"
+  arg1: 24.84
+  arg2: 4.292101650725714E254
+
+
+timestamp = 2024-06-17T17:52:05.103152800, generated = 
+  arg0: "423993333"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.105156100, generated = 
+  arg0: "329986561"
+  arg1: 1.2494082071785808E255
+  arg2: -362.01
+
+
+timestamp = 2024-06-17T17:52:05.106151800, generated = 
+  arg0: "524544991"
+  arg1: 5.935745941610379E74
+  arg2: -6.6574153212473E11
+
+
+timestamp = 2024-06-17T17:52:05.107155500, generated = 
+  arg0: "063169138"
+  arg1: 1.2860717444793536E87
+  arg2: -39854.84
+
+
+timestamp = 2024-06-17T17:52:05.108155200, generated = 
+  arg0: "899651281"
+  arg1: 2.0048378140992815E255
+  arg2: 5.4418617109683085E41
+
+
+timestamp = 2024-06-17T17:52:05.109156300, generated = 
+  arg0: "430742400"
+  arg1: 26.99
+  arg2: -0.47
+
+
+timestamp = 2024-06-17T17:52:05.110156400, generated = 
+  arg0: "270372663"
+  arg1: 291238.65
+  arg2: -0.91
+
+
+timestamp = 2024-06-17T17:52:05.111152300, generated = 
+  arg0: "832374941"
+  arg1: 2.674801842312296E17
+  arg2: 4.2058123504392E11
+
+
+timestamp = 2024-06-17T17:52:05.112155100, generated = 
+  arg0: "769858368"
+  arg1: 2.3194970207365523E17
+  arg2: -1.310649314864488E63
+
+
+timestamp = 2024-06-17T17:52:05.113156, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.114154400, generated = 
+  arg0: "764981052"
+  arg1: 1.7976931348623157E308
+  arg2: -5.557593179232478E127
+
+
+timestamp = 2024-06-17T17:52:05.115156200, generated = 
+  arg0: "927009472"
+  arg1: 9198.13
+  arg2: -5.091739655058927E41
+
+
+timestamp = 2024-06-17T17:52:05.116156800, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.117156800, generated = 
+  arg0: "198143799"
+  arg1: 3.290082238092472E142
+  arg2: 6.002596014198784E203
+
+
+timestamp = 2024-06-17T17:52:05.118156300, generated = 
+  arg0: "847966121"
+  arg1: 12.11
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.121156200, generated = 
+  arg0: "325118346"
+  arg1: 1130.65
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.122155800, generated = 
+  arg0: "669932575"
+  arg1: 1.8916610036488045E24
+  arg2: -8.713197073506264E62
+
+
+timestamp = 2024-06-17T17:52:05.123156800, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.124158100, generated = 
+  arg0: "462408727"
+  arg1: 2.0936228257142425E157
+  arg2: -0.24
+
+
+timestamp = 2024-06-17T17:52:05.125157400, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.126156500, generated = 
+  arg0: "864299513"
+  arg1: 1.7628121202922266E254
+  arg2: 1.1771073432832625E173
+
+
+timestamp = 2024-06-17T17:52:05.129153600, generated = 
+  arg0: "290724774"
+  arg1: 0.27
+  arg2: 5.158259733845581E204
+
+
+timestamp = 2024-06-17T17:52:05.136182600, generated = 
+  arg0: "472111305"
+  arg1: 0.01
+  arg2: 0.15
+
+
+timestamp = 2024-06-17T17:52:05.137371500, generated = 
+  arg0: "030264007"
+  arg1: 4.8012698263011686E113
+  arg2: 9614.39
+
+
+timestamp = 2024-06-17T17:52:05.137371500, generated = 
+  arg0: "473482257"
+  arg1: 4.400482134309004E99
+  arg2: 4.924269567674784E156
+
+
+timestamp = 2024-06-17T17:52:05.137371500, generated = 
+  arg0: "487684270"
+  arg1: 4.28
+  arg2: -9.521943137E7
+
+
+timestamp = 2024-06-17T17:52:05.137371500, [ContoBancarioTest:testNullDestinationAccount] (100) statistics = 
+       # |                    label | count | 
+    -----|--------------------------|-------|---------------------------------------------------------------------------------
+       0 | Null Destination Account |   100 | ################################################################################
+
+timestamp = 2024-06-17T17:52:05.144731600, ContoBancarioTest:testNullDestinationAccount = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 42         | # of all combined edge cases
+edge-cases#tried = 10         | # of edge cases tried in current run
+seed = -7165250214201038962   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="calcolaInteressi valido" classname="com.example.SecondHomework.ContoBancarioTest" time="0.284">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.189036500, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.194036300, generated = 
+  arg0: "701060460"
+  arg1: 4.380861949022863E127
+  arg2: -0.34
+
+
+timestamp = 2024-06-17T17:52:05.196034200, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.197035800, generated = 
+  arg0: "123478171"
+  arg1: 0.01
+  arg2: -3.0338754671223105E32
+
+
+timestamp = 2024-06-17T17:52:05.198034500, generated = 
+  arg0: "988930502"
+  arg1: 238.78
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.200034500, generated = 
+  arg0: "257088100"
+  arg1: 1.2226044079275007E100
+  arg2: -2.630645025717028E41
+
+
+timestamp = 2024-06-17T17:52:05.201035700, generated = 
+  arg0: "909415334"
+  arg1: 2.887176432464066E142
+  arg2: -2.577555426836081E289
+
+
+timestamp = 2024-06-17T17:52:05.202039, generated = 
+  arg0: "299306316"
+  arg1: 1.4539194605966925E98
+  arg2: -4.521496647196306E141
+
+
+timestamp = 2024-06-17T17:52:05.203036700, generated = 
+  arg0: "147280487"
+  arg1: 0.01
+  arg2: 2.537722819329751E188
+
+
+timestamp = 2024-06-17T17:52:05.208037500, generated = 
+  arg0: "142576642"
+  arg1: 4.26
+  arg2: 11992.65
+
+
+timestamp = 2024-06-17T17:52:05.209037400, generated = 
+  arg0: "902947360"
+  arg1: 1.6407040912865814E87
+  arg2: -5.427719283663537E41
+
+
+timestamp = 2024-06-17T17:52:05.210037700, generated = 
+  arg0: "923248026"
+  arg1: 1.3684513589229534E204
+  arg2: -2.65
+
+
+timestamp = 2024-06-17T17:52:05.212038200, generated = 
+  arg0: "412370749"
+  arg1: 0.68
+  arg2: -4.879015241321274E41
+
+
+timestamp = 2024-06-17T17:52:05.215039700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.224037500, generated = 
+  arg0: "393590677"
+  arg1: 21.28
+  arg2: -335957.97
+
+
+timestamp = 2024-06-17T17:52:05.226036800, generated = 
+  arg0: "138915584"
+  arg1: 3.3873881713581356E272
+  arg2: 1.9910902017970102E40
+
+
+timestamp = 2024-06-17T17:52:05.229051200, generated = 
+  arg0: "857784444"
+  arg1: 5.545972333814256E62
+  arg2: 1.4362102134957363E62
+
+
+timestamp = 2024-06-17T17:52:05.230038100, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.231040, generated = 
+  arg0: "921272469"
+  arg1: 2.0811482899152162E141
+  arg2: 221.67
+
+
+timestamp = 2024-06-17T17:52:05.232036600, generated = 
+  arg0: "154065867"
+  arg1: 0.89
+  arg2: -4.429961457348221E113
+
+
+timestamp = 2024-06-17T17:52:05.236038200, generated = 
+  arg0: "654479596"
+  arg1: 5.991748342203535E204
+  arg2: -1.7197603450553678E62
+
+
+timestamp = 2024-06-17T17:52:05.242040900, generated = 
+  arg0: "841834138"
+  arg1: 7.5572066633020835E62
+  arg2: -164.48
+
+
+timestamp = 2024-06-17T17:52:05.247040800, generated = 
+  arg0: "656413742"
+  arg1: 2.931326252291047E272
+  arg2: 9.459494639995737E307
+
+
+timestamp = 2024-06-17T17:52:05.248045700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.250050900, generated = 
+  arg0: "841633669"
+  arg1: 2.4189977568884817E221
+  arg2: 8.596251415381577E113
+
+
+timestamp = 2024-06-17T17:52:05.264571700, generated = 
+  arg0: "804184604"
+  arg1: 1.7976931348623157E308
+  arg2: -1.910030130638666E32
+
+
+timestamp = 2024-06-17T17:52:05.266574100, generated = 
+  arg0: "293186507"
+  arg1: 0.82
+  arg2: 5.4293158701830994E23
+
+
+timestamp = 2024-06-17T17:52:05.274574900, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.275581900, generated = 
+  arg0: "613748041"
+  arg1: 4253.02
+  arg2: -1.49
+
+
+timestamp = 2024-06-17T17:52:05.279575600, generated = 
+  arg0: "956475538"
+  arg1: 1.99
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.280578100, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.281575, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.282574, generated = 
+  arg0: "333794231"
+  arg1: 458.05
+  arg2: -2.9885760737888555E113
+
+
+timestamp = 2024-06-17T17:52:05.284575700, generated = 
+  arg0: "038550089"
+  arg1: 6.8309411978682E11
+  arg2: 2.9487229476151996E61
+
+
+timestamp = 2024-06-17T17:52:05.287576200, generated = 
+  arg0: "908601475"
+  arg1: 268022.52
+  arg2: -1.8
+
+
+timestamp = 2024-06-17T17:52:05.289575300, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.290577100, generated = 
+  arg0: "314145587"
+  arg1: 3.318193802071912E126
+  arg2: 4.472399136623507E62
+
+
+timestamp = 2024-06-17T17:52:05.298574200, generated = 
+  arg0: "999999999"
+  arg1: 0.08
+  arg2: 2.4888859146119244E113
+
+
+timestamp = 2024-06-17T17:52:05.299575300, generated = 
+  arg0: "783242503"
+  arg1: 1.3523995860857357E290
+  arg2: 0.72
+
+
+timestamp = 2024-06-17T17:52:05.301572900, generated = 
+  arg0: "948286436"
+  arg1: 140499.68
+  arg2: -472.73
+
+
+timestamp = 2024-06-17T17:52:05.302577400, generated = 
+  arg0: "000000000"
+  arg1: 5188.85
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.303573600, generated = 
+  arg0: "164232839"
+  arg1: 6.36
+  arg2: 2.372939080796418E73
+
+
+timestamp = 2024-06-17T17:52:05.305572900, generated = 
+  arg0: "541055022"
+  arg1: 1.1295338216201873E87
+  arg2: -0.04
+
+
+timestamp = 2024-06-17T17:52:05.309576500, generated = 
+  arg0: "755645797"
+  arg1: 530.03
+  arg2: 1.2034566198182343E272
+
+
+timestamp = 2024-06-17T17:52:05.312574100, generated = 
+  arg0: "595136510"
+  arg1: 2.57
+  arg2: 0.26
+
+
+timestamp = 2024-06-17T17:52:05.314574700, generated = 
+  arg0: "431664027"
+  arg1: 4.849265880226715E272
+  arg2: 1.7150722870032216E237
+
+
+timestamp = 2024-06-17T17:52:05.316577600, generated = 
+  arg0: "955993584"
+  arg1: 0.13
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.317577800, generated = 
+  arg0: "487088845"
+  arg1: 2.0378674212260675E74
+  arg2: 6.617167057242872E127
+
+
+timestamp = 2024-06-17T17:52:05.317577800, generated = 
+  arg0: "805865677"
+  arg1: 0.79
+  arg2: 437.63
+
+
+timestamp = 2024-06-17T17:52:05.319575200, generated = 
+  arg0: "843448121"
+  arg1: 7.852835706800112E254
+  arg2: -8169.09
+
+
+timestamp = 2024-06-17T17:52:05.320576600, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.321577300, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.322578400, generated = 
+  arg0: "277510186"
+  arg1: 1.7635965319986102E238
+  arg2: -4.1121956287602275E142
+
+
+timestamp = 2024-06-17T17:52:05.323575600, generated = 
+  arg0: "129026587"
+  arg1: 93.67
+  arg2: 1.55
+
+
+timestamp = 2024-06-17T17:52:05.324574500, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.325575, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.328580800, generated = 
+  arg0: "876043394"
+  arg1: 42.77
+  arg2: 753.42
+
+
+timestamp = 2024-06-17T17:52:05.329577500, generated = 
+  arg0: "069404754"
+  arg1: 2.8228615047312817E41
+  arg2: 18.01
+
+
+timestamp = 2024-06-17T17:52:05.330578200, generated = 
+  arg0: "384237271"
+  arg1: 1.4749524065427382E87
+  arg2: 2.717457011492886E272
+
+
+timestamp = 2024-06-17T17:52:05.337578, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.339577200, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 3.534658818300688E86
+
+
+timestamp = 2024-06-17T17:52:05.340575600, generated = 
+  arg0: "999999999"
+  arg1: 1.228630048796706E157
+  arg2: 6.368617290736059E156
+
+
+timestamp = 2024-06-17T17:52:05.341577800, generated = 
+  arg0: "190317960"
+  arg1: 3.2308115819051315E17
+  arg2: 2.419577068338676E188
+
+
+timestamp = 2024-06-17T17:52:05.345577800, generated = 
+  arg0: "070785249"
+  arg1: 1.98
+  arg2: 3963.23
+
+
+timestamp = 2024-06-17T17:52:05.346576700, generated = 
+  arg0: "573188279"
+  arg1: 0.06
+  arg2: -9.483477793282838E16
+
+
+timestamp = 2024-06-17T17:52:05.347578, generated = 
+  arg0: "252657853"
+  arg1: 5.78996712162936E203
+  arg2: -1.431049508582019E255
+
+
+timestamp = 2024-06-17T17:52:05.349585300, generated = 
+  arg0: "511278363"
+  arg1: 3.298314541568958E142
+  arg2: -1.1382036831176281E113
+
+
+timestamp = 2024-06-17T17:52:05.352584900, generated = 
+  arg0: "735480763"
+  arg1: 4.914791441197941E188
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.353585600, generated = 
+  arg0: "116032703"
+  arg1: 67045.38
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.354585700, generated = 
+  arg0: "656445879"
+  arg1: 1.1322575825189033E173
+  arg2: -5.50728567986087E237
+
+
+timestamp = 2024-06-17T17:52:05.355585, generated = 
+  arg0: "331294576"
+  arg1: 2.3564357619924193E32
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.357583600, generated = 
+  arg0: "179417920"
+  arg1: 0.01
+  arg2: -1.74920415560751E271
+
+
+timestamp = 2024-06-17T17:52:05.358585800, generated = 
+  arg0: "320057171"
+  arg1: 28864.9
+  arg2: -5.274114568773888E127
+
+
+timestamp = 2024-06-17T17:52:05.359586500, generated = 
+  arg0: "534315814"
+  arg1: 5.630706887320374E40
+  arg2: 0.52
+
+
+timestamp = 2024-06-17T17:52:05.360584900, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.361587800, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.363100400, generated = 
+  arg0: "619272918"
+  arg1: 8.258388525871637E204
+  arg2: 0.7
+
+
+timestamp = 2024-06-17T17:52:05.364109300, generated = 
+  arg0: "871697573"
+  arg1: 1.855816545971115E24
+  arg2: 69.02
+
+
+timestamp = 2024-06-17T17:52:05.366109900, generated = 
+  arg0: "755575023"
+  arg1: 3.545792787730225E23
+  arg2: -2.03
+
+
+timestamp = 2024-06-17T17:52:05.369112, generated = 
+  arg0: "561184473"
+  arg1: 1.6151776430818612E16
+  arg2: 1.2157612319959E11
+
+
+timestamp = 2024-06-17T17:52:05.373117, generated = 
+  arg0: "742046576"
+  arg1: 6.837535752675235E99
+  arg2: 20766.0
+
+
+timestamp = 2024-06-17T17:52:05.375109100, generated = 
+  arg0: "000000000"
+  arg1: 2.1943009894333E11
+  arg2: 1703.25
+
+
+timestamp = 2024-06-17T17:52:05.384114800, generated = 
+  arg0: "563253653"
+  arg1: 9.749024911135173E237
+  arg2: -4.9293743917661213E86
+
+
+timestamp = 2024-06-17T17:52:05.390110800, generated = 
+  arg0: "326621367"
+  arg1: 7.687055301996176E204
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.404112, generated = 
+  arg0: "884493549"
+  arg1: 1.2091720016215323E52
+  arg2: -2.352573261433477E172
+
+
+timestamp = 2024-06-17T17:52:05.407111500, generated = 
+  arg0: "626723451"
+  arg1: 2.385719262434947E157
+  arg2: -646.51
+
+
+timestamp = 2024-06-17T17:52:05.411112800, generated = 
+  arg0: "767960780"
+  arg1: 350861.1
+  arg2: 0.27
+
+
+timestamp = 2024-06-17T17:52:05.413113500, generated = 
+  arg0: "959841403"
+  arg1: 6.943632549485694E204
+  arg2: 0.55
+
+
+timestamp = 2024-06-17T17:52:05.414114500, generated = 
+  arg0: "293244291"
+  arg1: 1.13
+  arg2: -58.3
+
+
+timestamp = 2024-06-17T17:52:05.414114500, generated = 
+  arg0: "643245806"
+  arg1: 2.924236994E7
+  arg2: -1.5002500958473549E290
+
+
+timestamp = 2024-06-17T17:52:05.416114300, generated = 
+  arg0: "115331091"
+  arg1: 1.0204763525595895E254
+  arg2: 4.984800128667233E99
+
+
+timestamp = 2024-06-17T17:52:05.417114800, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.419116400, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.419116400, generated = 
+  arg0: "991317817"
+  arg1: 9.977634450936803E73
+  arg2: -58.97
+
+
+timestamp = 2024-06-17T17:52:05.420113600, generated = 
+  arg0: "382687956"
+  arg1: 617.56
+  arg2: 9435.21
+
+
+timestamp = 2024-06-17T17:52:05.421113400, generated = 
+  arg0: "004299944"
+  arg1: 18.87
+  arg2: -35409.95
+
+
+timestamp = 2024-06-17T17:52:05.422115700, generated = 
+  arg0: "480940861"
+  arg1: 8.7504824483428E11
+  arg2: 2.009956537078197E86
+
+
+timestamp = 2024-06-17T17:52:05.426112600, generated = 
+  arg0: "689902457"
+  arg1: 3.000564019723327E204
+  arg2: 3.259542650002741E172
+
+
+timestamp = 2024-06-17T17:52:05.427115, generated = 
+  arg0: "537304463"
+  arg1: 7.61
+  arg2: -5.607799833011994E127
+
+
+timestamp = 2024-06-17T17:52:05.428112700, generated = 
+  arg0: "533977402"
+  arg1: 181.51
+  arg2: 0.09
+
+
+timestamp = 2024-06-17T17:52:05.430113400, [ContoBancarioTest:calcolaInteressi valido] (100) statistics = 
+       # |                      label | count | 
+    -----|----------------------------|-------|---------------------------------------------------------------------------------
+       0 |     Negative Interest Rate |    51 | ###################################################
+       1 | Valid Interest Calculation |    49 | #################################################
+
+timestamp = 2024-06-17T17:52:05.431115100, ContoBancarioTest:calcolaInteressi valido = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 42         | # of all combined edge cases
+edge-cases#tried = 18         | # of edge cases tried in current run
+seed = -2254295689110872261   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="deposito nonNegativo" classname="com.example.SecondHomework.ContoBancarioTest" time="0.15">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.457118700, generated = 
+  arg0: "931756198"
+  arg1: 452.08
+  arg2: -4.528979219834265E157
+
+
+timestamp = 2024-06-17T17:52:05.462637300, generated = 
+  arg0: "400420429"
+  arg1: 4.850159090763156E272
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.465646700, generated = 
+  arg0: "471210951"
+  arg1: 1.1250880399155422E255
+  arg2: 18.32
+
+
+timestamp = 2024-06-17T17:52:05.467646400, generated = 
+  arg0: "553549716"
+  arg1: 1.6400108531178242E74
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.468647, generated = 
+  arg0: "868001201"
+  arg1: 1.6
+  arg2: 4897.46
+
+
+timestamp = 2024-06-17T17:52:05.468647, generated = 
+  arg0: "951327456"
+  arg1: 1.6028173601807307E221
+  arg2: -2.6965198333007075E32
+
+
+timestamp = 2024-06-17T17:52:05.469646900, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.473646800, generated = 
+  arg0: "604306692"
+  arg1: 9.552226928908854E307
+  arg2: -1.58
+
+
+timestamp = 2024-06-17T17:52:05.475646100, generated = 
+  arg0: "368309308"
+  arg1: 4.043543245323889E99
+  arg2: -1.620365161363013E24
+
+
+timestamp = 2024-06-17T17:52:05.476647400, generated = 
+  arg0: "211349113"
+  arg1: 2.653152873229349E221
+  arg2: -1.8511870494523523E17
+
+
+timestamp = 2024-06-17T17:52:05.477649100, generated = 
+  arg0: "904168901"
+  arg1: 1.0022920964614347E41
+  arg2: -7.003059963466458E156
+
+
+timestamp = 2024-06-17T17:52:05.478648700, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.481646100, generated = 
+  arg0: "858141543"
+  arg1: 3.1221782845516E11
+  arg2: -544.74
+
+
+timestamp = 2024-06-17T17:52:05.482648400, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.483646400, generated = 
+  arg0: "902711636"
+  arg1: 3.9785067386122673E272
+  arg2: 3.5215574965320925E50
+
+
+timestamp = 2024-06-17T17:52:05.484648900, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.485649, generated = 
+  arg0: "589952410"
+  arg1: 8.472284161407544E31
+  arg2: 4.788409683676063E254
+
+
+timestamp = 2024-06-17T17:52:05.486649300, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.487647800, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.490647400, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.491648400, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.492649400, generated = 
+  arg0: "098296924"
+  arg1: 9.095405905181444E204
+  arg2: -1530.53
+
+
+timestamp = 2024-06-17T17:52:05.494650500, generated = 
+  arg0: "458716816"
+  arg1: 6.282094914E7
+  arg2: 109.43
+
+
+timestamp = 2024-06-17T17:52:05.495647900, generated = 
+  arg0: "490167896"
+  arg1: 1.0566779672546465E87
+  arg2: -3.7035880549762954E99
+
+
+timestamp = 2024-06-17T17:52:05.496650400, generated = 
+  arg0: "268142716"
+  arg1: 0.24
+  arg2: -4.74
+
+
+timestamp = 2024-06-17T17:52:05.498649600, generated = 
+  arg0: "238641162"
+  arg1: 2.7195095746572367E187
+  arg2: -8.15
+
+
+timestamp = 2024-06-17T17:52:05.499648100, generated = 
+  arg0: "946859792"
+  arg1: 8.003736684935854E204
+  arg2: 6.533057213573223E127
+
+
+timestamp = 2024-06-17T17:52:05.499648100, generated = 
+  arg0: "467722744"
+  arg1: 5.9766356787874E11
+  arg2: -558.55
+
+
+timestamp = 2024-06-17T17:52:05.500652200, generated = 
+  arg0: "124658674"
+  arg1: 2.86292726517706E221
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.501646900, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.503650, generated = 
+  arg0: "695503434"
+  arg1: 6.541088243570985E307
+  arg2: -6686.59
+
+
+timestamp = 2024-06-17T17:52:05.504651100, generated = 
+  arg0: "240027487"
+  arg1: 1.442350978518018E272
+  arg2: -6791.11
+
+
+timestamp = 2024-06-17T17:52:05.505649800, generated = 
+  arg0: "232572973"
+  arg1: 1.05
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.506650400, generated = 
+  arg0: "793808915"
+  arg1: 1.064226423146876E290
+  arg2: 1.2216669176319228E63
+
+
+timestamp = 2024-06-17T17:52:05.507652100, generated = 
+  arg0: "943071708"
+  arg1: 9.42986861614473E172
+  arg2: -7.255654541960415E271
+
+
+timestamp = 2024-06-17T17:52:05.508652, generated = 
+  arg0: "256715115"
+  arg1: 1.1957837321479128E238
+  arg2: 1.1183184672442821E128
+
+
+timestamp = 2024-06-17T17:52:05.509652500, generated = 
+  arg0: "094483047"
+  arg1: 9.170001359575868E204
+  arg2: -1.168738674413412E63
+
+
+timestamp = 2024-06-17T17:52:05.510650500, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.510650500, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.511652400, generated = 
+  arg0: "729643872"
+  arg1: 2.4926769060558037E221
+  arg2: -5.805689905154839E31
+
+
+timestamp = 2024-06-17T17:52:05.512649300, generated = 
+  arg0: "847927194"
+  arg1: 1201.62
+  arg2: -7.8482004571431E11
+
+
+timestamp = 2024-06-17T17:52:05.513650700, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.514651700, generated = 
+  arg0: "814711849"
+  arg1: 6.318770291860173E113
+  arg2: 1349.35
+
+
+timestamp = 2024-06-17T17:52:05.514651700, generated = 
+  arg0: "388136232"
+  arg1: 12988.11
+  arg2: -15.0
+
+
+timestamp = 2024-06-17T17:52:05.516649300, generated = 
+  arg0: "627185857"
+  arg1: 0.24
+  arg2: -1.3419465073E8
+
+
+timestamp = 2024-06-17T17:52:05.517650100, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.518652900, generated = 
+  arg0: "031254679"
+  arg1: 0.24
+  arg2: -5.572259310634956E188
+
+
+timestamp = 2024-06-17T17:52:05.518652900, generated = 
+  arg0: "681233114"
+  arg1: 47950.02
+  arg2: -9.812182161854461E204
+
+
+timestamp = 2024-06-17T17:52:05.519651900, generated = 
+  arg0: "278160999"
+  arg1: 4.287897749287327E86
+  arg2: 365025.32
+
+
+timestamp = 2024-06-17T17:52:05.521650600, generated = 
+  arg0: "170642723"
+  arg1: 2.531775787790624E289
+  arg2: -1.1625469083225835E128
+
+
+timestamp = 2024-06-17T17:52:05.523651500, generated = 
+  arg0: "235995904"
+  arg1: 0.28
+  arg2: 8.734688467590525E31
+
+
+timestamp = 2024-06-17T17:52:05.524650300, generated = 
+  arg0: "086965802"
+  arg1: 2.202404439717761E290
+  arg2: -2.426360084915109E100
+
+
+timestamp = 2024-06-17T17:52:05.525650200, generated = 
+  arg0: "441907619"
+  arg1: 0.08
+  arg2: 9.773614566027774E86
+
+
+timestamp = 2024-06-17T17:52:05.526651100, generated = 
+  arg0: "418231847"
+  arg1: 0.86
+  arg2: -401152.73
+
+
+timestamp = 2024-06-17T17:52:05.527653600, generated = 
+  arg0: "646194900"
+  arg1: 7.037951931314709E289
+  arg2: -2.28
+
+
+timestamp = 2024-06-17T17:52:05.529650100, generated = 
+  arg0: "442444836"
+  arg1: 1.7569015485678371E221
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.530655300, generated = 
+  arg0: "479578119"
+  arg1: 1.2021625040146642E63
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.531654700, generated = 
+  arg0: "585968393"
+  arg1: 174.75
+  arg2: 8.157433811982014E16
+
+
+timestamp = 2024-06-17T17:52:05.532656400, generated = 
+  arg0: "747105464"
+  arg1: 2.510641494204439E157
+  arg2: -1.5250377956934507E87
+
+
+timestamp = 2024-06-17T17:52:05.533651500, generated = 
+  arg0: "345721086"
+  arg1: 63477.28
+  arg2: -340719.35
+
+
+timestamp = 2024-06-17T17:52:05.534656, generated = 
+  arg0: "089165732"
+  arg1: 1.4337978049804158E87
+  arg2: -4.4374315283395677E157
+
+
+timestamp = 2024-06-17T17:52:05.535652500, generated = 
+  arg0: "455303088"
+  arg1: 15.19
+  arg2: -6.365517799611139E271
+
+
+timestamp = 2024-06-17T17:52:05.536654, generated = 
+  arg0: "315162489"
+  arg1: 5.021472196594947E99
+  arg2: -5.3202503652862984E237
+
+
+timestamp = 2024-06-17T17:52:05.537652800, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.537652800, generated = 
+  arg0: "383134794"
+  arg1: 10.59
+  arg2: 4.78188599079021E41
+
+
+timestamp = 2024-06-17T17:52:05.538652400, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.540653, generated = 
+  arg0: "115465598"
+  arg1: 6.89
+  arg2: 2.1352133324798917E221
+
+
+timestamp = 2024-06-17T17:52:05.541651800, generated = 
+  arg0: "930618376"
+  arg1: 7.753931983005129E188
+  arg2: 0.69
+
+
+timestamp = 2024-06-17T17:52:05.542653500, generated = 
+  arg0: "971528162"
+  arg1: 2.6609841475403082E32
+  arg2: -3.012985183012031E254
+
+
+timestamp = 2024-06-17T17:52:05.543652600, generated = 
+  arg0: "000000000"
+  arg1: 0.14
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.544652700, generated = 
+  arg0: "999999999"
+  arg1: 2.0060053078192314E204
+  arg2: -7.922981709023829E51
+
+
+timestamp = 2024-06-17T17:52:05.545658500, generated = 
+  arg0: "530064356"
+  arg1: 2.4003329058640166E17
+  arg2: 2.4097605035418222E100
+
+
+timestamp = 2024-06-17T17:52:05.546655300, generated = 
+  arg0: "490744262"
+  arg1: 4.365587561390628E16
+  arg2: -3.29890101868692E32
+
+
+timestamp = 2024-06-17T17:52:05.548663800, generated = 
+  arg0: "498091941"
+  arg1: 2.5232843259698233E51
+  arg2: -2.956662483436911E32
+
+
+timestamp = 2024-06-17T17:52:05.549658600, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.549658600, generated = 
+  arg0: "877630975"
+  arg1: 0.01
+  arg2: 4.685789901307983E187
+
+
+timestamp = 2024-06-17T17:52:05.550661500, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.551663900, generated = 
+  arg0: "084751621"
+  arg1: 6.951434559117752E188
+  arg2: 6.387165945546757E188
+
+
+timestamp = 2024-06-17T17:52:05.552680900, generated = 
+  arg0: "400787237"
+  arg1: 518.01
+  arg2: -1.7835325582118187E290
+
+
+timestamp = 2024-06-17T17:52:05.553668500, generated = 
+  arg0: "436243856"
+  arg1: 1.0742851909436118E290
+  arg2: 7.476124058342531E113
+
+
+timestamp = 2024-06-17T17:52:05.554662200, generated = 
+  arg0: "061798980"
+  arg1: 4.274208122647665E188
+  arg2: 7.430309654333145E127
+
+
+timestamp = 2024-06-17T17:52:05.555662900, generated = 
+  arg0: "604367768"
+  arg1: 2.4556623474880614E17
+  arg2: -9540.49
+
+
+timestamp = 2024-06-17T17:52:05.557659, generated = 
+  arg0: "690647611"
+  arg1: 1605.21
+  arg2: -2.1
+
+
+timestamp = 2024-06-17T17:52:05.558659900, generated = 
+  arg0: "775400996"
+  arg1: 11921.36
+  arg2: 3.074307136867807E220
+
+
+timestamp = 2024-06-17T17:52:05.559661400, generated = 
+  arg0: "885839277"
+  arg1: 1.0902386492861783E127
+  arg2: 0.18
+
+
+timestamp = 2024-06-17T17:52:05.560660500, generated = 
+  arg0: "500432316"
+  arg1: 7.033498651E7
+  arg2: -1.5314310156087187E17
+
+
+timestamp = 2024-06-17T17:52:05.561659800, generated = 
+  arg0: "715587284"
+  arg1: 2.5979436145931173E272
+  arg2: -2.2316883226891144E127
+
+
+timestamp = 2024-06-17T17:52:05.561659800, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.563177, generated = 
+  arg0: "242082197"
+  arg1: 497.35
+  arg2: -1.0363583998691005E255
+
+
+timestamp = 2024-06-17T17:52:05.564185700, generated = 
+  arg0: "878870166"
+  arg1: 7.433600901339641E74
+  arg2: 1.6028360751760342E17
+
+
+timestamp = 2024-06-17T17:52:05.566190500, generated = 
+  arg0: "409531662"
+  arg1: 4.403093350734743E41
+  arg2: -1.9491430922424356E221
+
+
+timestamp = 2024-06-17T17:52:05.567197700, generated = 
+  arg0: "784627349"
+  arg1: 1.4304737644842167E290
+  arg2: 3.079174735E7
+
+
+timestamp = 2024-06-17T17:52:05.568185300, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.569184600, generated = 
+  arg0: "239458017"
+  arg1: 1.992836321027536E100
+  arg2: -7562421.73
+
+
+timestamp = 2024-06-17T17:52:05.570189100, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.571190100, generated = 
+  arg0: "162611034"
+  arg1: 2.2445733856362375E187
+  arg2: -3.043977675195742E220
+
+
+timestamp = 2024-06-17T17:52:05.572186600, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.572186600, generated = 
+  arg0: "720321261"
+  arg1: 1.6394180884549178E238
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.573187100, generated = 
+  arg0: "280462563"
+  arg1: 1.8917650247574736E73
+  arg2: 1.4014011721137883E157
+
+
+timestamp = 2024-06-17T17:52:05.574185600, generated = 
+  arg0: "497061086"
+  arg1: 8.2811784071617E11
+  arg2: 1.0074088602523336E17
+
+
+timestamp = 2024-06-17T17:52:05.581188300, [ContoBancarioTest:deposito nonNegativo] (100) statistics = 
+       # |                                      label | count | 
+    -----|--------------------------------------------|-------|---------------------------------------------------------------------------------
+       0 |                    Importo di deposito 1.0 |     6 | ######
+       1 |                   Importo di deposito 0.01 |     4 | ####
+       2 | Importo di deposito 1.7976931348623157E308 |     4 | ####
+       3 |                  Importo di deposito 18.32 |     1 | #
+       4 |                Importo di deposito 4897.46 |     1 | #
+       5 |  Importo di deposito 3.5215574965320925E50 |     1 | #
+       6 |  Importo di deposito 4.788409683676063E254 |     1 | #
+       7 |                 Importo di deposito 109.43 |     1 | #
+       8 |  Importo di deposito 6.533057213573223E127 |     1 | #
+       9 |  Importo di deposito 1.2216669176319228E63 |     1 | #
+      10 | Importo di deposito 1.1183184672442821E128 |     1 | #
+      11 |                Importo di deposito 1349.35 |     1 | #
+      12 |              Importo di deposito 365025.32 |     1 | #
+      13 |   Importo di deposito 8.734688467590525E31 |     1 | #
+      14 |   Importo di deposito 9.773614566027774E86 |     1 | #
+      15 |   Importo di deposito 8.157433811982014E16 |     1 | #
+      16 |    Importo di deposito 4.78188599079021E41 |     1 | #
+      17 | Importo di deposito 2.1352133324798917E221 |     1 | #
+      18 |                   Importo di deposito 0.69 |     1 | #
+      19 | Importo di deposito 2.4097605035418222E100 |     1 | #
+      20 |  Importo di deposito 4.685789901307983E187 |     1 | #
+      21 |  Importo di deposito 6.387165945546757E188 |     1 | #
+      22 |  Importo di deposito 7.476124058342531E113 |     1 | #
+      23 |  Importo di deposito 7.430309654333145E127 |     1 | #
+      24 |  Importo di deposito 3.074307136867807E220 |     1 | #
+      25 |                   Importo di deposito 0.18 |     1 | #
+      26 |  Importo di deposito 1.6028360751760342E17 |     1 | #
+      27 |          Importo di deposito 3.079174735E7 |     1 | #
+      28 | Importo di deposito 1.4014011721137883E157 |     1 | #
+      29 |  Importo di deposito 1.0074088602523336E17 |     1 | #
+      30 |                     Negative Deposit -0.01 |     5 | #####
+      31 |   Negative Deposit -1.7976931348623157E308 |     4 | ####
+      32 |                       Negative Deposit 0.0 |     3 | ###
+      33 |                      Negative Deposit -1.0 |     3 | ###
+      34 |    Negative Deposit -4.528979219834265E157 |     1 | #
+      35 |    Negative Deposit -2.6965198333007075E32 |     1 | #
+      36 |                     Negative Deposit -1.58 |     1 | #
+      37 |     Negative Deposit -1.620365161363013E24 |     1 | #
+      38 |    Negative Deposit -1.8511870494523523E17 |     1 | #
+      39 |    Negative Deposit -7.003059963466458E156 |     1 | #
+      40 |                   Negative Deposit -544.74 |     1 | #
+      41 |                  Negative Deposit -1530.53 |     1 | #
+      42 |    Negative Deposit -3.7035880549762954E99 |     1 | #
+      43 |                     Negative Deposit -4.74 |     1 | #
+      44 |                     Negative Deposit -8.15 |     1 | #
+      45 |                   Negative Deposit -558.55 |     1 | #
+      46 |                  Negative Deposit -6686.59 |     1 | #
+      47 |                  Negative Deposit -6791.11 |     1 | #
+      48 |    Negative Deposit -7.255654541960415E271 |     1 | #
+      49 |     Negative Deposit -1.168738674413412E63 |     1 | #
+      50 |     Negative Deposit -5.805689905154839E31 |     1 | #
+      51 |       Negative Deposit -7.8482004571431E11 |     1 | #
+      52 |                     Negative Deposit -15.0 |     1 | #
+      53 |           Negative Deposit -1.3419465073E8 |     1 | #
+      54 |    Negative Deposit -5.572259310634956E188 |     1 | #
+      55 |    Negative Deposit -9.812182161854461E204 |     1 | #
+      56 |   Negative Deposit -1.1625469083225835E128 |     1 | #
+      57 |    Negative Deposit -2.426360084915109E100 |     1 | #
+      58 |                Negative Deposit -401152.73 |     1 | #
+      59 |                     Negative Deposit -2.28 |     1 | #
+      60 |    Negative Deposit -1.5250377956934507E87 |     1 | #
+      61 |                Negative Deposit -340719.35 |     1 | #
+      62 |   Negative Deposit -4.4374315283395677E157 |     1 | #
+      63 |    Negative Deposit -6.365517799611139E271 |     1 | #
+      64 |   Negative Deposit -5.3202503652862984E237 |     1 | #
+      65 |    Negative Deposit -3.012985183012031E254 |     1 | #
+      66 |     Negative Deposit -7.922981709023829E51 |     1 | #
+      67 |      Negative Deposit -3.29890101868692E32 |     1 | #
+      68 |     Negative Deposit -2.956662483436911E32 |     1 | #
+      69 |   Negative Deposit -1.7835325582118187E290 |     1 | #
+      70 |                  Negative Deposit -9540.49 |     1 | #
+      71 |                      Negative Deposit -2.1 |     1 | #
+      72 |    Negative Deposit -1.5314310156087187E17 |     1 | #
+      73 |   Negative Deposit -2.2316883226891144E127 |     1 | #
+      74 |   Negative Deposit -1.0363583998691005E255 |     1 | #
+      75 |   Negative Deposit -1.9491430922424356E221 |     1 | #
+      76 |               Negative Deposit -7562421.73 |     1 | #
+      77 |    Negative Deposit -3.043977675195742E220 |     1 | #
+
+timestamp = 2024-06-17T17:52:05.582187200, ContoBancarioTest:deposito nonNegativo = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 42         | # of all combined edge cases
+edge-cases#tried = 21         | # of edge cases tried in current run
+seed = -822462348410557093    | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCostruttore" classname="com.example.SecondHomework.ContoBancarioTest" time="0.134">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.595187400, generated = 
+  arg0: "805568454"
+  arg1: 38130.86
+
+
+timestamp = 2024-06-17T17:52:05.608189200, generated = 
+  arg0: "495078885"
+  arg1: -2.633448252628869E142
+
+
+timestamp = 2024-06-17T17:52:05.614190400, generated = 
+  arg0: "177848770"
+  arg1: 2.3157575942636873E41
+
+
+timestamp = 2024-06-17T17:52:05.615192, generated = 
+  arg0: "112410202"
+  arg1: 0.34
+
+
+timestamp = 2024-06-17T17:52:05.616189200, generated = 
+  arg0: "640270842"
+  arg1: -1.6150769253329446E51
+
+
+timestamp = 2024-06-17T17:52:05.617186400, generated = 
+  arg0: "480119702"
+  arg1: -1.7154551831149973E74
+
+
+timestamp = 2024-06-17T17:52:05.618191200, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.618191200, generated = 
+  arg0: "556395375"
+  arg1: 33.5
+
+
+timestamp = 2024-06-17T17:52:05.619190500, generated = 
+  arg0: "737116577"
+  arg1: -0.1
+
+
+timestamp = 2024-06-17T17:52:05.620188600, generated = 
+  arg0: "161177853"
+  arg1: -2.6406373202890964E32
+
+
+timestamp = 2024-06-17T17:52:05.625191300, generated = 
+  arg0: "618776286"
+  arg1: 1.320471335129579E63
+
+
+timestamp = 2024-06-17T17:52:05.625191300, generated = 
+  arg0: "752825087"
+  arg1: 3510.62
+
+
+timestamp = 2024-06-17T17:52:05.626189900, generated = 
+  arg0: "891055387"
+  arg1: -2.2247604178467243E272
+
+
+timestamp = 2024-06-17T17:52:05.627191500, generated = 
+  arg0: "181849680"
+  arg1: 1.632787456797549E113
+
+
+timestamp = 2024-06-17T17:52:05.628190800, generated = 
+  arg0: "808756689"
+  arg1: -1.3441287685908333E221
+
+
+timestamp = 2024-06-17T17:52:05.629192400, generated = 
+  arg0: "738610391"
+  arg1: 1.7005660718658755E220
+
+
+timestamp = 2024-06-17T17:52:05.629192400, generated = 
+  arg0: "265572114"
+  arg1: 0.68
+
+
+timestamp = 2024-06-17T17:52:05.630192400, generated = 
+  arg0: "618180108"
+  arg1: 3.121382218974701E127
+
+
+timestamp = 2024-06-17T17:52:05.631192, generated = 
+  arg0: "999999999"
+  arg1: -4.496518759555349E142
+
+
+timestamp = 2024-06-17T17:52:05.631192, generated = 
+  arg0: "590104346"
+  arg1: -6.38898343746093E188
+
+
+timestamp = 2024-06-17T17:52:05.632190200, generated = 
+  arg0: "042258834"
+  arg1: -3.0947528387265114E32
+
+
+timestamp = 2024-06-17T17:52:05.633189800, generated = 
+  arg0: "027917252"
+  arg1: 5.21
+
+
+timestamp = 2024-06-17T17:52:05.633189800, generated = 
+  arg0: "385645600"
+  arg1: 3.5305813488679196E157
+
+
+timestamp = 2024-06-17T17:52:05.634198700, generated = 
+  arg0: "877762197"
+  arg1: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.635192300, generated = 
+  arg0: "152727806"
+  arg1: 5.929827852831242E141
+
+
+timestamp = 2024-06-17T17:52:05.636194200, generated = 
+  arg0: "459781509"
+  arg1: -1681.94
+
+
+timestamp = 2024-06-17T17:52:05.637191800, generated = 
+  arg0: "000000000"
+  arg1: -566.95
+
+
+timestamp = 2024-06-17T17:52:05.637191800, generated = 
+  arg0: "718963852"
+  arg1: 7096.58
+
+
+timestamp = 2024-06-17T17:52:05.638190200, generated = 
+  arg0: "903447067"
+  arg1: -41799.52
+
+
+timestamp = 2024-06-17T17:52:05.638190200, generated = 
+  arg0: "000000000"
+  arg1: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.639194100, generated = 
+  arg0: "929528843"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.640193500, generated = 
+  arg0: "029362398"
+  arg1: 1.6478194301477903E24
+
+
+timestamp = 2024-06-17T17:52:05.640193500, generated = 
+  arg0: "723252031"
+  arg1: -2.760443143539283E41
+
+
+timestamp = 2024-06-17T17:52:05.641191500, generated = 
+  arg0: "444107478"
+  arg1: 796.86
+
+
+timestamp = 2024-06-17T17:52:05.642191, generated = 
+  arg0: "190374125"
+  arg1: 3.166297634780718E288
+
+
+timestamp = 2024-06-17T17:52:05.642191, generated = 
+  arg0: "056127849"
+  arg1: 110.99
+
+
+timestamp = 2024-06-17T17:52:05.643194800, generated = 
+  arg0: "584894202"
+  arg1: 1.692265020783542E87
+
+
+timestamp = 2024-06-17T17:52:05.644193400, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.644193400, generated = 
+  arg0: "843874550"
+  arg1: -3.2206367413232464E73
+
+
+timestamp = 2024-06-17T17:52:05.645193800, generated = 
+  arg0: "033652721"
+  arg1: -0.23
+
+
+timestamp = 2024-06-17T17:52:05.646190300, generated = 
+  arg0: "844018836"
+  arg1: 1.0781769516889016E172
+
+
+timestamp = 2024-06-17T17:52:05.647197300, generated = 
+  arg0: "590989409"
+  arg1: -408.55
+
+
+timestamp = 2024-06-17T17:52:05.648205, generated = 
+  arg0: "056006409"
+  arg1: 7.98461643424913E74
+
+
+timestamp = 2024-06-17T17:52:05.649203400, generated = 
+  arg0: "496573243"
+  arg1: -0.18
+
+
+timestamp = 2024-06-17T17:52:05.649203400, generated = 
+  arg0: "000000000"
+  arg1: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.650203500, generated = 
+  arg0: "459653963"
+  arg1: -2.557916975243003E142
+
+
+timestamp = 2024-06-17T17:52:05.651208500, generated = 
+  arg0: "148971576"
+  arg1: -0.07
+
+
+timestamp = 2024-06-17T17:52:05.652206600, generated = 
+  arg0: "656058529"
+  arg1: 0.4
+
+
+timestamp = 2024-06-17T17:52:05.652206600, generated = 
+  arg0: "963556741"
+  arg1: 2.0916014289898894E203
+
+
+timestamp = 2024-06-17T17:52:05.653206200, generated = 
+  arg0: "000000000"
+  arg1: 2.9601564553375125E32
+
+
+timestamp = 2024-06-17T17:52:05.653206200, generated = 
+  arg0: "718805441"
+  arg1: -2.3718395393989502E142
+
+
+timestamp = 2024-06-17T17:52:05.654206700, generated = 
+  arg0: "040607070"
+  arg1: 7536.34
+
+
+timestamp = 2024-06-17T17:52:05.655206700, generated = 
+  arg0: "249731605"
+  arg1: -9.981206217920006E172
+
+
+timestamp = 2024-06-17T17:52:05.655206700, generated = 
+  arg0: "340737506"
+  arg1: 3.058839450779E11
+
+
+timestamp = 2024-06-17T17:52:05.656206700, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.656206700, generated = 
+  arg0: "210510399"
+  arg1: 3.659003490229312E157
+
+
+timestamp = 2024-06-17T17:52:05.657207500, generated = 
+  arg0: "065144662"
+  arg1: -1.00836815006804E272
+
+
+timestamp = 2024-06-17T17:52:05.658206600, generated = 
+  arg0: "228020712"
+  arg1: 3.9612850936555414E86
+
+
+timestamp = 2024-06-17T17:52:05.658206600, generated = 
+  arg0: "170294358"
+  arg1: -7.181704438747908E113
+
+
+timestamp = 2024-06-17T17:52:05.659207100, generated = 
+  arg0: "000000000"
+  arg1: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.659207100, generated = 
+  arg0: "826427887"
+  arg1: -4.444575498043804E204
+
+
+timestamp = 2024-06-17T17:52:05.660206600, generated = 
+  arg0: "124723192"
+  arg1: 7.294765914315915E16
+
+
+timestamp = 2024-06-17T17:52:05.660206600, generated = 
+  arg0: "999999999"
+  arg1: -13.38
+
+
+timestamp = 2024-06-17T17:52:05.661205200, generated = 
+  arg0: "349367791"
+  arg1: 4.713853855574782E157
+
+
+timestamp = 2024-06-17T17:52:05.661205200, generated = 
+  arg0: "572700583"
+  arg1: 3.184248792523709E204
+
+
+timestamp = 2024-06-17T17:52:05.662719500, generated = 
+  arg0: "488676040"
+  arg1: -417.26
+
+
+timestamp = 2024-06-17T17:52:05.662719500, generated = 
+  arg0: "120891788"
+  arg1: -49477.89
+
+
+timestamp = 2024-06-17T17:52:05.663728, generated = 
+  arg0: "964539365"
+  arg1: 1292.98
+
+
+timestamp = 2024-06-17T17:52:05.664729400, generated = 
+  arg0: "171921436"
+  arg1: -4.271262774974809E41
+
+
+timestamp = 2024-06-17T17:52:05.664729400, generated = 
+  arg0: "000000000"
+  arg1: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.665729400, generated = 
+  arg0: "459456679"
+  arg1: -1622.93
+
+
+timestamp = 2024-06-17T17:52:05.666726100, generated = 
+  arg0: "538851204"
+  arg1: 1.606060851194061E238
+
+
+timestamp = 2024-06-17T17:52:05.666726100, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.667727800, generated = 
+  arg0: "383755680"
+  arg1: 13204.99
+
+
+timestamp = 2024-06-17T17:52:05.667727800, generated = 
+  arg0: "999999999"
+  arg1: 0.0
+
+
+timestamp = 2024-06-17T17:52:05.668725200, generated = 
+  arg0: "999999999"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.669726400, generated = 
+  arg0: "248286258"
+  arg1: -7.361288994947153E188
+
+
+timestamp = 2024-06-17T17:52:05.669726400, generated = 
+  arg0: "239673797"
+  arg1: 5340.4
+
+
+timestamp = 2024-06-17T17:52:05.670727900, generated = 
+  arg0: "000000000"
+  arg1: 6.085288739268231E254
+
+
+timestamp = 2024-06-17T17:52:05.671728700, generated = 
+  arg0: "999999999"
+  arg1: -1.0
+
+
+timestamp = 2024-06-17T17:52:05.671728700, generated = 
+  arg0: "999999999"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.672730600, generated = 
+  arg0: "854652737"
+  arg1: -32.97
+
+
+timestamp = 2024-06-17T17:52:05.673732300, generated = 
+  arg0: "999999999"
+  arg1: -0.01
+
+
+timestamp = 2024-06-17T17:52:05.674725400, generated = 
+  arg0: "855620330"
+  arg1: -6.066744829114569E31
+
+
+timestamp = 2024-06-17T17:52:05.675728400, generated = 
+  arg0: "809354069"
+  arg1: 0.15
+
+
+timestamp = 2024-06-17T17:52:05.677724500, generated = 
+  arg0: "462212437"
+  arg1: -2.4361684858710216E221
+
+
+timestamp = 2024-06-17T17:52:05.679727500, generated = 
+  arg0: "000000000"
+  arg1: -9829.57
+
+
+timestamp = 2024-06-17T17:52:05.682726500, generated = 
+  arg0: "630153224"
+  arg1: -7.870448548220382E254
+
+
+timestamp = 2024-06-17T17:52:05.683729300, generated = 
+  arg0: "598006491"
+  arg1: -5.979060740164537E74
+
+
+timestamp = 2024-06-17T17:52:05.684734600, generated = 
+  arg0: "999999999"
+  arg1: 1.4448582534E8
+
+
+timestamp = 2024-06-17T17:52:05.686732400, generated = 
+  arg0: "428350667"
+  arg1: 212195.38
+
+
+timestamp = 2024-06-17T17:52:05.687729100, generated = 
+  arg0: "750758905"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.696727700, generated = 
+  arg0: "225400802"
+  arg1: 1.4717446969779436E290
+
+
+timestamp = 2024-06-17T17:52:05.697729500, generated = 
+  arg0: "575360110"
+  arg1: 3.646012506016465E272
+
+
+timestamp = 2024-06-17T17:52:05.699726900, generated = 
+  arg0: "081137546"
+  arg1: -39128.97
+
+
+timestamp = 2024-06-17T17:52:05.700731100, generated = 
+  arg0: "690154682"
+  arg1: 18664.08
+
+
+timestamp = 2024-06-17T17:52:05.701728900, generated = 
+  arg0: "999999999"
+  arg1: -1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.702729800, generated = 
+  arg0: "772461542"
+  arg1: -6397.44
+
+
+timestamp = 2024-06-17T17:52:05.705728700, generated = 
+  arg0: "929246484"
+  arg1: -1.2631463870687192E62
+
+
+timestamp = 2024-06-17T17:52:05.714729300, generated = 
+  arg0: "999999999"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.716729500, [ContoBancarioTest:testCostruttore] (100) statistics = 
+       # |                    label | count | 
+    -----|--------------------------|-------|---------------------------------------------------------------------------------
+       0 | Negative Initial Balance |    47 | ###############################################
+       1 |   Valid Account Creation |    53 | #####################################################
+
+timestamp = 2024-06-17T17:52:05.717731800, ContoBancarioTest:testCostruttore = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 14         | # of all combined edge cases
+edge-cases#tried = 14         | # of edge cases tried in current run
+seed = -526546793909540905    | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidAccountNumber" classname="com.example.SecondHomework.ContoBancarioTest" time="0.074">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.730729900, generated = 
+  arg0: "1215249"
+  arg1: 9.346698963852361E307
+
+
+timestamp = 2024-06-17T17:52:05.732735600, generated = 
+  arg0: "4659679"
+  arg1: 7.017582339350865E113
+
+
+timestamp = 2024-06-17T17:52:05.732735600, generated = 
+  arg0: "0458087"
+  arg1: 6.0
+
+
+timestamp = 2024-06-17T17:52:05.733732200, generated = 
+  arg0: "0184707"
+  arg1: 2.9308716625534486E203
+
+
+timestamp = 2024-06-17T17:52:05.734734900, generated = 
+  arg0: "28330"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.734734900, generated = 
+  arg0: "0"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.735734600, generated = 
+  arg0: "399"
+  arg1: 8.51701879968267E289
+
+
+timestamp = 2024-06-17T17:52:05.736734, generated = 
+  arg0: "00"
+  arg1: 1.3277199506705747E100
+
+
+timestamp = 2024-06-17T17:52:05.736734, generated = 
+  arg0: "1"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.737734500, generated = 
+  arg0: "180"
+  arg1: 4.339246421043169E142
+
+
+timestamp = 2024-06-17T17:52:05.738734500, generated = 
+  arg0: "40375579"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.738734500, generated = 
+  arg0: "5"
+  arg1: 8.286920486185933E307
+
+
+timestamp = 2024-06-17T17:52:05.739733, generated = 
+  arg0: "20498139"
+  arg1: 6.60642177140019E113
+
+
+timestamp = 2024-06-17T17:52:05.740733800, generated = 
+  arg0: "7794211"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.740733800, generated = 
+  arg0: "09442"
+  arg1: 1.452421842325308E87
+
+
+timestamp = 2024-06-17T17:52:05.741734900, generated = 
+  arg0: "54"
+  arg1: 1540.84
+
+
+timestamp = 2024-06-17T17:52:05.742734100, generated = 
+  arg0: "6501436"
+  arg1: 8.310878460868066E31
+
+
+timestamp = 2024-06-17T17:52:05.743735800, generated = 
+  arg0: "3"
+  arg1: 4.1717549359855075E270
+
+
+timestamp = 2024-06-17T17:52:05.744735500, generated = 
+  arg0: "8383506"
+  arg1: 854.58
+
+
+timestamp = 2024-06-17T17:52:05.744735500, generated = 
+  arg0: "430916"
+  arg1: 913.73
+
+
+timestamp = 2024-06-17T17:52:05.745732200, generated = 
+  arg0: "319459"
+  arg1: 4.0914284316307733E204
+
+
+timestamp = 2024-06-17T17:52:05.745732200, generated = 
+  arg0: "04"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "1486863"
+  arg1: 3.286392198985233E16
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "19814353"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "24529"
+  arg1: 6.22307337285278E51
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "3645857"
+  arg1: 3879.04
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "80259568"
+  arg1: 1.2800742110414045E255
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "0"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "234"
+  arg1: 6.469570927598985E127
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "43967369"
+  arg1: 61.2
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "90092"
+  arg1: 2.0271655495597834E188
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "28314"
+  arg1: 7.958612808755616E127
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "37963"
+  arg1: 1281.89
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "4351304"
+  arg1: 2.940209222860752E221
+
+
+timestamp = 2024-06-17T17:52:05.746708, generated = 
+  arg0: "9"
+  arg1: 415138.95
+
+
+timestamp = 2024-06-17T17:52:05.761723100, generated = 
+  arg0: "96769531"
+  arg1: 1.2352902681417922E173
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "4533221"
+  arg1: 5.979003715137897E188
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "0"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "5121"
+  arg1: 3.0014176738303604E41
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "9"
+  arg1: 6.458561232514878E307
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "9"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "8"
+  arg1: 6.929948441197338E188
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "6"
+  arg1: 1.272397678735218E17
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "0"
+  arg1: 8.210679023478742E99
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "1276444"
+  arg1: 8.047395409045249E254
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "9"
+  arg1: 5.558911047570149E41
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "89498237"
+  arg1: 2.980528177559511E31
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "00397"
+  arg1: 2.1362855191118408E307
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "7590776"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "9"
+  arg1: 1.1245283851841714E187
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "9"
+  arg1: 2.2886695473350906E100
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "6"
+  arg1: 2.0494840966522408E23
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "148606"
+  arg1: 0.08
+
+
+timestamp = 2024-06-17T17:52:05.762736100, generated = 
+  arg0: "58"
+  arg1: 1.8363071930533108E112
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "418"
+  arg1: 3.295630057593413E41
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "1405"
+  arg1: 3.46567470762661E307
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "258"
+  arg1: 15.68
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "17580"
+  arg1: 0.03
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "7"
+  arg1: 8.3736087944855E11
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "9"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "627814"
+  arg1: 0.34
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "57"
+  arg1: 162.37
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "6047"
+  arg1: 0.15
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "8110"
+  arg1: 301612.46
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "921536"
+  arg1: 1.2856541494976941E63
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "15"
+  arg1: 4.134382251E7
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "44146"
+  arg1: 7.44
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "3"
+  arg1: 3.905802208201765E204
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "20"
+  arg1: 51119.63
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "9"
+  arg1: 1.5993641599903173E238
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "9"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "3831"
+  arg1: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "4209"
+  arg1: 1.8695791518689786E221
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "019010"
+  arg1: 8614.72
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "9585"
+  arg1: 1.5824279724452385E290
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "502"
+  arg1: 1864.79
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "45143"
+  arg1: 1.7992619875827002E157
+
+
+timestamp = 2024-06-17T17:52:05.777754400, generated = 
+  arg0: "0162"
+  arg1: 5.705437988610719E188
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "38"
+  arg1: 1.5345819068600401E237
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "9"
+  arg1: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "7285"
+  arg1: 7.160366675037292E51
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "36"
+  arg1: 8.745599705247758E172
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "54304402"
+  arg1: 7470.19
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "2682"
+  arg1: 8647.26
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "03126"
+  arg1: 8.756869622E7
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "745"
+  arg1: 0.59
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "8"
+  arg1: 3.7509252495430896E41
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "40"
+  arg1: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "8"
+  arg1: 8.2069858088407E11
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "9"
+  arg1: 2.2270463641688913E221
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "58743217"
+  arg1: 1.4212695974820057E87
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "925265"
+  arg1: 2.54
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "12250764"
+  arg1: 1.8652649730750933E272
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "94"
+  arg1: 1.1397389396171592E24
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "6777"
+  arg1: 5.81994575625046E204
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "0"
+  arg1: 6.202554456146752E51
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "0"
+  arg1: 4.884680971874154E236
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "1387352"
+  arg1: 5.9216081058826034E113
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "345078"
+  arg1: 3.9725706441531594E113
+
+
+timestamp = 2024-06-17T17:52:05.793395900, generated = 
+  arg0: "9915"
+  arg1: 1.3628629086903559E41
+
+
+timestamp = 2024-06-17T17:52:05.793395900, [ContoBancarioTest:testInvalidAccountNumber] (100) statistics = 
+       # |                  label | count | 
+    -----|------------------------|-------|---------------------------------------------------------------------------------
+       0 | Invalid Account Number |   100 | ################################################################################
+
+timestamp = 2024-06-17T17:52:05.793395900, ContoBancarioTest:testInvalidAccountNumber = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 6          | # of all combined edge cases
+edge-cases#tried = 6          | # of edge cases tried in current run
+seed = -3831273668067173542   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCancellaInteressi" classname="com.example.SecondHomework.ContoBancarioTest" time="0.125">
+    <system-out><![CDATA[timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "551211803"
+  arg1: 9.257043545855084E84
+  arg2: 1.2129284219532769E23
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "999999999"
+  arg1: 0.88
+  arg2: 16.23
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "701115417"
+  arg1: 4.2283947278263944E254
+  arg2: 44.92
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "717675385"
+  arg1: 4.54
+  arg2: 55.83
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "722176278"
+  arg1: 9.5264995307635E271
+  arg2: 23436.89
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "793994231"
+  arg1: 7.561366191475929E188
+  arg2: 7.758263308452443E172
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "803575058"
+  arg1: 1.0
+  arg2: 1.7965827763656693E87
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "660792332"
+  arg1: 1.186168329518056E255
+  arg2: 1.3785233512869842E31
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "592726388"
+  arg1: 824.37
+  arg2: 1.0551022322E8
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "460187167"
+  arg1: 182446.78
+  arg2: 4.938521501957531E127
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "470075462"
+  arg1: 1.2285505493475774E221
+  arg2: 1.0366165550849233E142
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "596041643"
+  arg1: 5.617722375413755E204
+  arg2: 937.56
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "019625291"
+  arg1: 290963.37
+  arg2: 1.1317439842449738E238
+
+
+timestamp = 2024-06-17T17:52:05.824652200, generated = 
+  arg0: "493417039"
+  arg1: 7.018069661152622E73
+  arg2: 0.91
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "680393545"
+  arg1: 53.66
+  arg2: 1.4255732164193085E238
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "000000000"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "626797179"
+  arg1: 8.435016881122979E99
+  arg2: 22763.53
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "341219499"
+  arg1: 41253.9
+  arg2: 5.11
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "479727163"
+  arg1: 6.422286202424272E306
+  arg2: 3.87876627624523E127
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "813323122"
+  arg1: 5.35
+  arg2: 5.985998819573923E16
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "258866197"
+  arg1: 0.62
+  arg2: 2.23
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "083037298"
+  arg1: 6.833354770053887E271
+  arg2: 1860.98
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "366866996"
+  arg1: 4.1400565520769234E307
+  arg2: 2.611123850858336E272
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "716227059"
+  arg1: 37197.34
+  arg2: 8.70167292623885E23
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "792844487"
+  arg1: 2.54
+  arg2: 3.4338104890007684E271
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "999999999"
+  arg1: 0.44
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "784637727"
+  arg1: 4.5098165525924906E237
+  arg2: 0.75
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "651966549"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "470259559"
+  arg1: 554.76
+  arg2: 0.28
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "738523247"
+  arg1: 1.6434348809847542E272
+  arg2: 9914.5
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "124336257"
+  arg1: 2.233546721242929E23
+  arg2: 5.291163145646141E307
+
+
+timestamp = 2024-06-17T17:52:05.840281100, generated = 
+  arg0: "979162346"
+  arg1: 2.295457281E7
+  arg2: 8.396309989018392E23
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "930743461"
+  arg1: 9.124575269354929E218
+  arg2: 118.63
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "178516851"
+  arg1: 1.8466482831271245E142
+  arg2: 0.25
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "613304026"
+  arg1: 1.1471837144943792E221
+  arg2: 8.95395911280077E16
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "409720404"
+  arg1: 5.087005487215965E220
+  arg2: 1.234628371338856E142
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "674472556"
+  arg1: 1.31
+  arg2: 1.7037145599109662E254
+
+
+timestamp = 2024-06-17T17:52:05.855911900, generated = 
+  arg0: "531598712"
+  arg1: 1.59300443238852E308
+  arg2: 113.08
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "234612842"
+  arg1: 6.590060664538619E16
+  arg2: 1.0977499548075379E24
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "050289271"
+  arg1: 3.99
+  arg2: 4.337159073361E11
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "000000000"
+  arg1: 0.01
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "841437543"
+  arg1: 75.65
+  arg2: 1.2905928617480656E52
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "671174401"
+  arg1: 420714.0
+  arg2: 0.19
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.862929500, generated = 
+  arg0: "389754800"
+  arg1: 4.616116317675915E112
+  arg2: 24.66
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "213345977"
+  arg1: 5.109436263053101E62
+  arg2: 3.4747273100399588E41
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "329391004"
+  arg1: 9.426987264344468E127
+  arg2: 1.3349208248693102E142
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "750153680"
+  arg1: 1.1435462736E8
+  arg2: 1.318177072047767E173
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "868438114"
+  arg1: 14.54
+  arg2: 1.1787552712740747E255
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "055741853"
+  arg1: 1.9911568976774642E307
+  arg2: 1327.16
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "520674750"
+  arg1: 2.1268613620866914E290
+  arg2: 294680.55
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "000000000"
+  arg1: 1.7976931348623157E308
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "835149174"
+  arg1: 3.9055221272591675E31
+  arg2: 2.860265913777017E221
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "048457334"
+  arg1: 8.369429140768955E31
+  arg2: 1.2571459776203593E24
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "160958980"
+  arg1: 6.965988613802199E307
+  arg2: 3.6047033941969013E73
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "509863968"
+  arg1: 1.33121949916099E173
+  arg2: 0.09
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "804677121"
+  arg1: 2.4557004631382946E221
+  arg2: 1.4820046576289433E31
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "000000000"
+  arg1: 8.567103927973602E237
+  arg2: 1.9467136660299352E87
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "506664356"
+  arg1: 0.08
+  arg2: 6.225888395177875E86
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "059164464"
+  arg1: 5.755742940414523E204
+  arg2: 1909.85
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "335148139"
+  arg1: 1.2742419861620736E100
+  arg2: 7.375078365322907E113
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "290019118"
+  arg1: 2.7783711136300287E41
+  arg2: 1162.12
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "798536300"
+  arg1: 3.214397448138777E62
+  arg2: 6.227411304448056E127
+
+
+timestamp = 2024-06-17T17:52:05.871942200, generated = 
+  arg0: "338003108"
+  arg1: 3.470137183297113E157
+  arg2: 2.9911427168660676E142
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "546664005"
+  arg1: 6.28
+  arg2: 77.31
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "168030227"
+  arg1: 71.69
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "999999999"
+  arg1: 1.0
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "715451209"
+  arg1: 3.975084906915377E99
+  arg2: 6.33779893452238E98
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "184313961"
+  arg1: 69.01
+  arg2: 1.277667365461879E308
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "471765695"
+  arg1: 2.51
+  arg2: 1.794319502045074E87
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "660554560"
+  arg1: 10484.18
+  arg2: 7.147140437384853E127
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "999999999"
+  arg1: 1.0
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.887578800, generated = 
+  arg0: "492830043"
+  arg1: 4.280879602583087E307
+  arg2: 8.347111220428377E31
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "798221406"
+  arg1: 7.337758714219779E172
+  arg2: 7.310904696890302E204
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "999999999"
+  arg1: 1.0
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "966847880"
+  arg1: 1.2550460074726116E173
+  arg2: 1.0137656989205202E272
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "000000000"
+  arg1: 3.5
+  arg2: 4.0468946951903245E41
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "171744267"
+  arg1: 0.85
+  arg2: 5.627441021336823E51
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "758002281"
+  arg1: 1.7470661117833008E32
+  arg2: 0.25
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "999999999"
+  arg1: 0.01
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "751730177"
+  arg1: 2.4598277766856185E221
+  arg2: 0.03
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "999999999"
+  arg1: 0.01
+  arg2: 0.01
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "748202724"
+  arg1: 6.110617435829761E41
+  arg2: 1.1962914827857645E87
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "668512109"
+  arg1: 4.433168643491472E22
+  arg2: 3.671043713375005E51
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "915182857"
+  arg1: 1.3527840988560782E24
+  arg2: 1.3093884091170567E173
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "714453400"
+  arg1: 6.3306958215257E11
+  arg2: 30.32
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "190833900"
+  arg1: 4.253673586417145E127
+  arg2: 6367.1
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "124501620"
+  arg1: 60790.37
+  arg2: 13.81
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "692757243"
+  arg1: 1.644831999734134E237
+  arg2: 1.0540286980493032E254
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "708294921"
+  arg1: 3.87808901691332E142
+  arg2: 6.56
+
+
+timestamp = 2024-06-17T17:52:05.903208500, generated = 
+  arg0: "693309143"
+  arg1: 1.6571253392019887E24
+  arg2: 0.48
+
+
+timestamp = 2024-06-17T17:52:05.918839800, generated = 
+  arg0: "274366983"
+  arg1: 7.75
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.918839800, generated = 
+  arg0: "999999999"
+  arg1: 0.01
+  arg2: 1.7976931348623157E308
+
+
+timestamp = 2024-06-17T17:52:05.918839800, generated = 
+  arg0: "999999999"
+  arg1: 1.7976931348623157E308
+  arg2: 1.0
+
+
+timestamp = 2024-06-17T17:52:05.918839800, generated = 
+  arg0: "624431846"
+  arg1: 1.2767617538934908E308
+  arg2: 37.47
+
+
+timestamp = 2024-06-17T17:52:05.918839800, [ContoBancarioTest:testCancellaInteressi] (100) statistics = 
+       # |            label | count | 
+    -----|------------------|-------|---------------------------------------------------------------------------------
+       0 | Interest Cleared |   100 | ################################################################################
+
+timestamp = 2024-06-17T17:52:05.918839800, ContoBancarioTest:testCancellaInteressi = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 18         | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = -8650603119429557116   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+</testsuite>
