@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ContoBancario.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ContoBancario</a> &gt; <a href="index.source.html" class="el_package">com.example.SecondHomework</a> &gt; <span class="el_source">ContoBancario.java</span></div><h1>ContoBancario.java</h1><pre class="source lang-java linenums">package com.example.SecondHomework;
+
+
+import java.util.HashMap;
+
+import java.util.Map;
+
+
+public class ContoBancario {
+	public String NumeroConto;
+    public double saldo;
+    public Map&lt;String, Double&gt; interessi;
+
+    //Costruttore per la classe ContoBancario
+<span class="fc" id="L15">    public ContoBancario(String NumeroConto, double saldo) {</span>
+        // Controllo di validità per il numero di conto
+<span class="pc bpc" id="L17" title="1 of 4 branches missed.">        if (NumeroConto == null ||!NumeroConto.matches(&quot;\\d{9}&quot;)) { // il numero di conto deve essere composto da 9 cifre</span>
+<span class="fc" id="L18">            throw new IllegalArgumentException(&quot;Il numero di conto non è valido. Deve essere composto da 9 cifre.&quot;);</span>
+        }
+<span class="fc" id="L20">        this.NumeroConto = NumeroConto;</span>
+        // Controllo di validità per il saldo
+<span class="fc bfc" id="L22" title="All 2 branches covered.">        if (saldo &lt; 0) {</span>
+<span class="fc" id="L23">            throw new IllegalArgumentException(&quot;Il saldo iniziale non può essere negativo.&quot;);</span>
+        }
+<span class="fc" id="L25">        this.NumeroConto = NumeroConto;</span>
+<span class="fc" id="L26">        this.saldo = saldo;</span>
+<span class="fc" id="L27">        this.interessi = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L28">    }</span>
+
+  //Metodo per effettuare un deposito sul conto bancario
+    public double deposito(double importo){
+<span class="fc bfc" id="L32" title="All 2 branches covered.">    	 if (importo &lt;= 0) {</span>
+<span class="fc" id="L33">            throw new IllegalArgumentException(&quot;Importo di deposito non può essere negativo.&quot;);</span>
+        }
+<span class="fc" id="L35">        saldo += importo;</span>
+<span class="fc" id="L36">        return saldo;</span>
+    }
+
+    //Metodo per effettuare un prelievo dal conto bancario
+    public double prelievo(double importo) {
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    	 if (importo &lt;= 0) {</span>
+<span class="fc" id="L42">            throw new IllegalArgumentException(&quot;Importo di prelievo non può essere negativo o zero.&quot;);</span>
+        }
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        if (saldo &gt;= importo) {</span>
+<span class="fc" id="L45">            saldo -= importo;</span>
+<span class="fc" id="L46">            return saldo;</span>
+        } else {
+<span class="fc" id="L48">            throw new IllegalArgumentException(&quot;Saldo insufficiente per effettuare il prelievo.&quot;);</span>
+        }
+    }
+
+    //Metodo per trasferire denaro da questo conto a un altro conto bancario
+    public boolean trasferimento(ContoBancario destinazione, double importo) {
+<span class="fc bfc" id="L54" title="All 2 branches covered.">        if (destinazione == null) {</span>
+<span class="fc" id="L55">            throw new IllegalArgumentException(&quot;Il conto di destinazione non può essere null.&quot;);</span>
+        }
+<span class="fc bfc" id="L57" title="All 2 branches covered.">        if (importo &lt;= 0) {</span>
+<span class="fc" id="L58">            throw new IllegalArgumentException(&quot;Importo di trasferimento deve essere positivo.&quot;);</span>
+        }
+<span class="fc bfc" id="L60" title="All 2 branches covered.">        if (saldo &gt;= importo) {</span>
+<span class="fc" id="L61">            saldo -= importo;</span>
+<span class="fc" id="L62">            destinazione.deposito(importo);</span>
+<span class="fc" id="L63">            return true; // Restituisci true se il trasferimento è avvenuto con successo</span>
+        } else {
+<span class="fc" id="L65">            return false; // Restituisci false se il trasferimento non è riuscito</span>
+        }
+    }
+
+    //Metodo per calcolare gli interessi sul saldo del contoo bancario
+    public double calcolaInteressi(double tassoInteresse) {
+<span class="fc bfc" id="L71" title="All 2 branches covered.">        if (tassoInteresse &lt;= 0) {</span>
+<span class="fc" id="L72">            throw new IllegalArgumentException(&quot;Il tasso di interesse non può essere negativo.&quot;);</span>
+        }
+<span class="fc" id="L74">        double interesse = saldo * tassoInteresse / 100;</span>
+<span class="fc" id="L75">        interessi.put(NumeroConto, interesse);</span>
+<span class="fc" id="L76">        return interesse;</span>
+    }
+
+    public void cancellaInteressi() {
+<span class="fc" id="L80">        interessi.clear();</span>
+<span class="fc" id="L81">    }</span>
+
+    //Metodo per ottenere il saldo attuale del conto bancario
+    public double getSaldo(){
+<span class="fc" id="L85">        return saldo;</span>
+    }
+
+    //Metodo per ottenere gli interessi calcolati per il conto bancario
+    public Map&lt;String, Double&gt; getInteressi() {
+<span class="fc" id="L90">        return interessi;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
